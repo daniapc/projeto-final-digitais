@@ -1,4 +1,6 @@
-def getCabecalho(caminho):
+from sklearn.preprocessing import OneHotEncoder
+
+def get_cabecalho(caminho):
     with open(caminho, 'r') as f:
         line = f.readline()
         line = line.rstrip('\n')
@@ -7,7 +9,7 @@ def getCabecalho(caminho):
             atributos[i] = atributos[i].strip('"')
         return atributos
 
-def separarDados(caminho, target, cabecalho):
+def separar_dados(caminho, target, cabecalho):
     X = []
     y = []
 
@@ -36,9 +38,10 @@ def separarDados(caminho, target, cabecalho):
                         valores.append(atributos[i])
                 X.append(valores)
     
+    cabecalho.remove(target)
     return X, y
 
-def getCategoricos(dados, cabecalho):
+def get_categoricos(dados, cabecalho):
     primeira_linha = dados[0]
     indices_categoricos = []
     campos_categoricos = []
@@ -60,17 +63,29 @@ def getCategoricos(dados, cabecalho):
             for elemento in campo:
                 linha.remove(elemento)
 
-    return indices_categoricos, campos_categoricos,cabecalho_categoricos
+    return campos_categoricos,cabecalho_categoricos
 
-def reincluirCategoricosTransformados(dados, categoricos):
+def reincluir_categoricos_transformados(dados, categoricos):
     for linha in dados:
         indice = dados.index(linha)
         dados[indice] = dados[indice] + categoricos[indice]
 
     return dados
 
-def incluirCabecalhoCategoricos(encoder,cabecalho, cabecalho_categorico):
+def incluir_cabecalho_categoricos(encoder,cabecalho, cabecalho_categorico):
     for atributo in cabecalho_categorico:
         cabecalho.remove(atributo)
     
     return cabecalho + encoder.get_feature_names_out(cabecalho_categorico).tolist()
+
+def gerenciar_categoricos(X, cabecalho):
+    campos_categoricos,cabecalho_categoricos = get_categoricos(X, cabecalho)
+
+    if len(campos_categoricos) != 0:
+        encoder = OneHotEncoder(handle_unknown='ignore')
+        encoder = encoder.fit(campos_categoricos)
+        array_categorico = encoder.transform(campos_categoricos).toarray()
+        X = reincluir_categoricos_transformados(X, array_categorico.tolist())
+        cabecalho = incluir_cabecalho_categoricos(encoder,cabecalho,cabecalho_categoricos)
+
+    return X, cabecalho
