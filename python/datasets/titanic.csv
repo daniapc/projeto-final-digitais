@@ -1,0 +1,2209 @@
+Age,Class/Dept,Fare today,Joined,Survived
+29.0,1st Class,16300,Southampton,TRUE
+0.9,1st Class,11700,Southampton,TRUE
+2.0,1st Class,11700,Southampton,FALSE
+30.0,1st Class,11700,Southampton,FALSE
+25.0,1st Class,11700,Southampton,FALSE
+47.0,1st Class,2050,Southampton,TRUE
+62.0,1st Class,6020,Cherbourg,TRUE
+39.0,1st Class,,Belfast,FALSE
+53.0,1st Class,3980,Southampton,TRUE
+71.0,1st Class,3820,Cherbourg,FALSE
+47.0,1st Class,19100,Cherbourg,FALSE
+18.0,1st Class,19100,Cherbourg,TRUE
+24.0,1st Class,5350,Cherbourg,TRUE
+26.0,1st Class,6090,Southampton,TRUE
+47.0,1st Class,2320,Southampton,TRUE
+60.0,1st Class,2000,Cherbourg,FALSE
+24.0,1st Class,19100,Cherbourg,FALSE
+50.0,1st Class,19100,Cherbourg,TRUE
+36.0,1st Class,5890,Cherbourg,TRUE
+36.0,1st Class,5810,Southampton,FALSE
+37.0,1st Class,4060,Southampton,TRUE
+46.0,1st Class,4060,Southampton,TRUE
+26.0,1st Class,2320,Cherbourg,TRUE
+39.0,1st Class,4890,Cherbourg,TRUE
+46.0,1st Class,19100,Cherbourg,TRUE
+31.0,1st Class,17100,Southampton,TRUE
+24.0,1st Class,2010,Cherbourg,FALSE
+25.0,1st Class,7030,Cherbourg,TRUE
+19.0,1st Class,7030,Cherbourg,TRUE
+28.0,1st Class,2050,Southampton,TRUE
+45.0,1st Class,2740,Southampton,FALSE
+39.0,1st Class,2390,Cherbourg,TRUE
+30.0,1st Class,12700,Southampton,TRUE
+61.0,1st Class,2050,Southampton,TRUE
+42.0,1st Class,2050,Southampton,FALSE
+45.0,1st Class,20300,Cherbourg,TRUE
+22.0,1st Class,4250,Southampton,TRUE
+41.0,1st Class,2360,Southampton,FALSE
+48.0,1st Class,3900,Cherbourg,FALSE
+37.0,1st Class,2050,Southampton,TRUE
+45.0,1st Class,3060,Cherbourg,FALSE
+59.0,1st Class,3980,Southampton,TRUE
+44.0,1st Class,2140,Cherbourg,TRUE
+59.0,1st Class,5890,Cherbourg,TRUE
+41.0,1st Class,10400,Cherbourg,TRUE
+46.0,1st Class,2050,Southampton,FALSE
+,1st Class,2390,Southampton,FALSE
+42.0,1st Class,2030,Southampton,TRUE
+52.0,1st Class,2120,Cherbourg,TRUE
+36.0,1st Class,39600,Cherbourg,TRUE
+58.0,1st Class,39600,Cherbourg,TRUE
+33.0,1st Class,386,Southampton,FALSE
+31.0,1st Class,3640,Southampton,FALSE
+17.0,1st Class,3640,Southampton,FALSE
+11.0,1st Class,9270,Southampton,TRUE
+13.0,1st Class,9270,Southampton,TRUE
+36.0,1st Class,9270,Southampton,TRUE
+36.0,1st Class,9270,Southampton,TRUE
+49.0,1st Class,2010,Southampton,FALSE
+36.0,1st Class,2140,Cherbourg,TRUE
+36.0,1st Class,6090,Southampton,FALSE
+25.0,1st Class,6090,Southampton,TRUE
+46.0,1st Class,4720,Southampton,FALSE
+47.0,1st Class,4720,Southampton,TRUE
+27.0,1st Class,4100,Southampton,TRUE
+32.0,1st Class,4100,Southampton,TRUE
+36.0,1st Class,20300,Cherbourg,TRUE
+30.0,1st Class,6680,Southampton,TRUE
+45.0,1st Class,2290,Cherbourg,TRUE
+48.0,1st Class,4250,Southampton,TRUE
+40.0,1st Class,,Belfast,FALSE
+27.0,1st Class,10600,Cherbourg,FALSE
+26.0,1st Class,10600,Cherbourg,TRUE
+22.0,1st Class,11700,Southampton,TRUE
+40.0,1st Class,4020,Southampton,FALSE
+37.0,1st Class,1980,Southampton,FALSE
+39.0,1st Class,6420,Cherbourg,TRUE
+37.0,1st Class,6420,Cherbourg,FALSE
+64.0,1st Class,6420,Cherbourg,TRUE
+55.0,1st Class,1990,Southampton,TRUE
+59.0,1st Class,2050,Southampton,FALSE
+70.0,1st Class,5480,Southampton,FALSE
+39.0,1st Class,2050,Southampton,TRUE
+64.0,1st Class,5480,Southampton,TRUE
+39.0,1st Class,5500,Cherbourg,FALSE
+35.0,1st Class,5500,Cherbourg,TRUE
+51.0,1st Class,2050,Southampton,TRUE
+27.0,1st Class,2360,Southampton,TRUE
+33.0,1st Class,11700,Southampton,TRUE
+31.0,1st Class,4020,Cherbourg,FALSE
+27.0,1st Class,4020,Cherbourg,TRUE
+31.0,1st Class,4400,Southampton,TRUE
+17.0,1st Class,4400,Southampton,TRUE
+52.0,1st Class,6320,Southampton,TRUE
+4.0,1st Class,6320,Southampton,TRUE
+34.0,1st Class,6320,Southampton,TRUE
+50.0,1st Class,8220,Cherbourg,FALSE
+48.0,1st Class,8220,Cherbourg,TRUE
+27.0,1st Class,19100,Cherbourg,TRUE
+48.0,1st Class,4400,Cherbourg,TRUE
+49.0,1st Class,3060,Cherbourg,TRUE
+39.0,1st Class,2290,Cherbourg,FALSE
+23.0,1st Class,6420,Cherbourg,TRUE
+39.0,1st Class,19100,Cherbourg,TRUE
+54.0,1st Class,6040,Cherbourg,TRUE
+36.0,1st Class,2450,Cherbourg,FALSE
+57.0,1st Class,17100,Southampton,FALSE
+48.0,1st Class,2450,Cherbourg,TRUE
+42.0,1st Class,8560,Cherbourg,TRUE
+36.0,1st Class,2030,Southampton,TRUE
+30.0,1st Class,2140,Southampton,FALSE
+24.0,1st Class,20300,Southampton,TRUE
+28.0,1st Class,20300,Southampton,TRUE
+23.0,1st Class,20300,Southampton,TRUE
+19.0,1st Class,20300,Southampton,FALSE
+64.0,1st Class,20300,Southampton,FALSE
+60.0,1st Class,20300,Southampton,TRUE
+60.0,1st Class,6120,Cherbourg,TRUE
+48.0,1st Class,6120,Cherbourg,TRUE
+22.0,1st Class,3820,Cherbourg,TRUE
+31.0,1st Class,4400,Cherbourg,TRUE
+37.0,1st Class,2050,Southampton,FALSE
+49.0,1st Class,10300,Cherbourg,TRUE
+43.0,1st Class,2140,Cherbourg,TRUE
+42.0,1st Class,10300,Cherbourg,TRUE
+39.0,1st Class,,Southampton,FALSE
+37.0,1st Class,4100,Southampton,FALSE
+35.0,1st Class,4100,Southampton,TRUE
+47.0,1st Class,2970,Southampton,FALSE
+22.0,1st Class,4590,Cherbourg,TRUE
+44.0,1st Class,4590,Cherbourg,TRUE
+35.0,1st Class,16300,Southampton,TRUE
+24.0,1st Class,6120,Cherbourg,FALSE
+47.0,1st Class,6880,Cherbourg,TRUE
+40.0,1st Class,6880,Cherbourg,TRUE
+71.0,1st Class,2680,Cherbourg,FALSE
+53.0,1st Class,2200,Southampton,TRUE
+19.0,1st Class,11900,Southampton,TRUE
+38.0,1st Class,2320,Southampton,FALSE
+59.0,1st Class,11900,Southampton,TRUE
+23.0,1st Class,4890,Cherbourg,TRUE
+45.0,1st Class,4890,Cherbourg,TRUE
+46.0,1st Class,6120,Cherbourg,FALSE
+25.0,1st Class,4280,Cherbourg,TRUE
+21.0,1st Class,4280,Cherbourg,TRUE
+48.0,1st Class,5930,Cherbourg,TRUE
+49.0,1st Class,5930,Cherbourg,TRUE
+37.0,1st Class,3270,Southampton,FALSE
+45.0,1st Class,6450,Southampton,FALSE
+35.0,1st Class,6450,Southampton,TRUE
+45.0,1st Class,,Southampton,FALSE
+27.0,1st Class,5930,Cherbourg,TRUE
+45.0,1st Class,2320,Southampton,TRUE
+24.0,1st Class,6420,Cherbourg,TRUE
+55.0,1st Class,7220,Southampton,FALSE
+52.0,1st Class,7220,Southampton,TRUE
+42.0,1st Class,3280,Southampton,FALSE
+44.0,1st Class,4000,Southampton,FALSE
+55.0,1st Class,3860,Southampton,FALSE
+17.0,1st Class,4480,Cherbourg,TRUE
+44.0,1st Class,4480,Cherbourg,TRUE
+51.0,1st Class,6020,Cherbourg,TRUE
+42.0,1st Class,4020,Southampton,FALSE
+35.0,1st Class,4020,Southampton,TRUE
+40.0,1st Class,2050,Southampton,TRUE
+38.0,1st Class,7720,Southampton,TRUE
+42.0,1st Class,2370,Cherbourg,FALSE
+31.0,1st Class,7720,Southampton,TRUE
+38.0,1st Class,6180,Southampton,TRUE
+50.0,1st Class,2220,Cherbourg,FALSE
+49.0,1st Class,,Southampton,TRUE
+46.0,1st Class,2010,Southampton,FALSE
+50.0,1st Class,2010,Southampton,FALSE
+33.0,1st Class,16300,Southampton,FALSE
+58.0,1st Class,2290,Cherbourg,FALSE
+41.0,1st Class,4000,Southampton,FALSE
+31.0,1st Class,4000,Southampton,TRUE
+42.0,1st Class,4060,Southampton,TRUE
+45.0,1st Class,4060,Southampton,TRUE
+,1st Class,2050,Southampton,FALSE
+29.0,1st Class,16300,Southampton,TRUE
+,1st Class,2700,Southampton,FALSE
+49.0,1st Class,2000,Southampton,TRUE
+27.0,1st Class,8220,Cherbourg,TRUE
+35.0,1st Class,39600,Cherbourg,TRUE
+31.0,1st Class,2140,Cherbourg,FALSE
+42.0,1st Class,2050,Southampton,FALSE
+55.0,1st Class,2140,Cherbourg,TRUE
+16.0,1st Class,3040,Cherbourg,TRUE
+50.0,1st Class,3040,Cherbourg,TRUE
+29.0,1st Class,2320,Southampton,FALSE
+21.0,1st Class,6020,Cherbourg,TRUE
+30.0,1st Class,3510,Southampton,FALSE
+59.0,1st Class,11300,Cherbourg,TRUE
+16.0,1st Class,16300,Southampton,TRUE
+30.0,1st Class,2010,Southampton,FALSE
+19.0,1st Class,6680,Southampton,TRUE
+28.0,1st Class,2290,Cherbourg,TRUE
+18.0,1st Class,4100,Southampton,FALSE
+18.0,1st Class,4100,Southampton,TRUE
+24.0,1st Class,3820,Cherbourg,TRUE
+46.0,1st Class,5810,Southampton,FALSE
+54.0,1st Class,4000,Southampton,FALSE
+35.0,1st Class,2030,Southampton,TRUE
+28.0,1st Class,6350,Cherbourg,FALSE
+25.0,1st Class,6350,Cherbourg,TRUE
+65.0,1st Class,2050,Cherbourg,FALSE
+44.0,1st Class,6950,,FALSE
+33.0,1st Class,6950,,TRUE
+37.0,1st Class,6950,,TRUE
+30.0,1st Class,4460,Cherbourg,TRUE
+55.0,1st Class,2360,Southampton,FALSE
+47.0,1st Class,3270,Southampton,FALSE
+36.0,1st Class,2290,Cherbourg,FALSE
+31.0,1st Class,8750,Cherbourg,TRUE
+23.0,1st Class,8750,Cherbourg,TRUE
+58.0,1st Class,8750,Cherbourg,FALSE
+19.0,1st Class,2030,Southampton,TRUE
+64.0,1st Class,2010,Southampton,FALSE
+20.0,1st Class,1070,Cherbourg,TRUE
+39.0,1st Class,8410,Cherbourg,TRUE
+29.0,1st Class,1990,Cherbourg,TRUE
+22.0,1st Class,4790,Southampton,TRUE
+64.0,1st Class,4790,Southampton,FALSE
+36.0,1st Class,2140,Cherbourg,FALSE
+29.0,1st Class,,Belfast,FALSE
+40.0,1st Class,2200,Southampton,FALSE
+22.0,1st Class,7220,Southampton,FALSE
+24.0,1st Class,8410,Cherbourg,FALSE
+22.0,1st Class,8410,Cherbourg,TRUE
+29.0,1st Class,5140,Southampton,FALSE
+22.0,1st Class,5140,Southampton,TRUE
+33.0,1st Class,7220,Southampton,TRUE
+52.0,1st Class,2360,Southampton,TRUE
+46.0,1st Class,4020,Southampton,FALSE
+56.0,1st Class,6420,Cherbourg,TRUE
+38.0,1st Class,,Cherbourg,FALSE
+36.0,1st Class,3060,Cherbourg,TRUE
+22.0,1st Class,10500,Cherbourg,FALSE
+42.0,1st Class,19100,Cherbourg,FALSE
+43.0,1st Class,16300,Southampton,TRUE
+31.0,1st Class,3900,Southampton,FALSE
+45.0,1st Class,2050,Southampton,TRUE
+38.0,1st Class,3860,Southampton,FALSE
+34.0,1st Class,2140,Cherbourg,TRUE
+46.0,1st Class,6120,Cherbourg,FALSE
+36.0,1st Class,3100,Southampton,FALSE
+33.0,1st Class,6680,Southampton,TRUE
+46.0,1st Class,4590,Cherbourg,FALSE
+54.0,1st Class,4590,Cherbourg,TRUE
+59.0,1st Class,2050,Southampton,FALSE
+13.0,1st Class,20300,Cherbourg,TRUE
+18.0,1st Class,20300,Cherbourg,TRUE
+21.0,1st Class,20300,Cherbourg,TRUE
+61.0,1st Class,20300,Cherbourg,FALSE
+48.0,1st Class,20300,Cherbourg,TRUE
+24.0,1st Class,5350,Cherbourg,TRUE
+47.0,1st Class,2360,Southampton,TRUE
+43.0,1st Class,2010,Cherbourg,TRUE
+35.0,1st Class,4460,Cherbourg,TRUE
+30.0,1st Class,2390,Southampton,TRUE
+34.0,1st Class,2050,Southampton,TRUE
+40.0,1st Class,11900,Southampton,TRUE
+35.0,1st Class,2030,Southampton,TRUE
+50.0,1st Class,4320,Cherbourg,FALSE
+39.0,1st Class,4320,Cherbourg,TRUE
+56.0,1st Class,2740,Southampton,TRUE
+28.0,1st Class,2740,Southampton,TRUE
+56.0,1st Class,2050,Southampton,FALSE
+56.0,1st Class,2370,Cherbourg,FALSE
+24.0,1st Class,4630,Cherbourg,FALSE
+,1st Class,2010,Southampton,FALSE
+18.0,1st Class,4630,Cherbourg,TRUE
+24.0,1st Class,6350,Southampton,TRUE
+23.0,1st Class,6350,Southampton,TRUE
+6.0,1st Class,10400,Cherbourg,TRUE
+45.0,1st Class,10400,Cherbourg,TRUE
+39.0,1st Class,10400,Cherbourg,TRUE
+57.0,1st Class,11300,Cherbourg,FALSE
+45.0,1st Class,11300,Cherbourg,TRUE
+32.0,1st Class,2360,Southampton,TRUE
+62.0,1st Class,2050,Southampton,FALSE
+54.0,1st Class,4280,Cherbourg,TRUE
+44.0,1st Class,4280,Cherbourg,TRUE
+52.0,1st Class,6040,Cherbourg,TRUE
+54.0,1st Class,2140,Cherbourg,FALSE
+62.0,1st Class,6180,Southampton,TRUE
+67.0,1st Class,17100,Southampton,FALSE
+63.0,1st Class,17100,Southampton,FALSE
+61.0,1st Class,2500,Southampton,FALSE
+46.0,1st Class,2000,Southampton,TRUE
+18.0,1st Class,6150,Southampton,TRUE
+52.0,1st Class,6150,Southampton,FALSE
+39.0,1st Class,6150,Southampton,TRUE
+48.0,1st Class,4020,Southampton,TRUE
+49.0,1st Class,4020,Southampton,TRUE
+49.0,1st Class,8560,Cherbourg,FALSE
+17.0,1st Class,8560,Cherbourg,TRUE
+39.0,1st Class,8560,Cherbourg,TRUE
+38.0,1st Class,6190,Cherbourg,TRUE
+31.0,1st Class,2200,Cherbourg,TRUE
+39.0,1st Class,2140,Cherbourg,FALSE
+61.0,1st Class,2590,Belfast,FALSE
+48.0,1st Class,2640,Southampton,FALSE
+38.0,1st Class,39600,Cherbourg,TRUE
+63.0,1st Class,5810,Cherbourg,FALSE
+60.0,1st Class,5810,Cherbourg,TRUE
+59.0,1st Class,2050,Southampton,FALSE
+54.0,1st Class,5970,Southampton,FALSE
+21.0,1st Class,5970,Southampton,FALSE
+55.0,1st Class,10500,Cherbourg,TRUE
+31.0,1st Class,12700,Southampton,TRUE
+57.0,1st Class,12700,Southampton,FALSE
+45.0,1st Class,12700,Southampton,TRUE
+50.0,1st Class,16300,Southampton,FALSE
+27.0,1st Class,16300,Southampton,FALSE
+50.0,1st Class,16300,Southampton,TRUE
+21.0,1st Class,2050,Southampton,TRUE
+51.0,1st Class,4740,Cherbourg,FALSE
+21.0,1st Class,4740,Cherbourg,TRUE
+31.0,1st Class,10400,Cherbourg,TRUE
+45.0,1st Class,2740,Southampton,TRUE
+62.0,1st Class,2050,Southampton,FALSE
+36.0,1st Class,10500,Cherbourg,TRUE
+30.0,2nd Class,1850,Cherbourg,FALSE
+28.0,2nd Class,1850,Cherbourg,TRUE
+30.0,2nd Class,1000,Southampton,FALSE
+17.0,2nd Class,888,Southampton,FALSE
+25.0,2nd Class,811,Southampton,FALSE
+32.0,2nd Class,2010,Southampton,FALSE
+36.0,2nd Class,2010,Southampton,TRUE
+57.0,2nd Class,1000,Southampton,FALSE
+15.0,2nd Class,888,Southampton,FALSE
+23.0,2nd Class,811,Southampton,FALSE
+36.0,2nd Class,1000,Southampton,TRUE
+28.0,2nd Class,811,Southampton,FALSE
+51.0,2nd Class,967,Southampton,FALSE
+32.0,2nd Class,2010,Southampton,TRUE
+19.0,2nd Class,2010,Southampton,TRUE
+28.0,2nd Class,2010,Southampton,FALSE
+1.0,2nd Class,3010,Southampton,TRUE
+4.0,2nd Class,3010,Southampton,TRUE
+12.0,2nd Class,3010,Southampton,TRUE
+35.0,2nd Class,3010,Southampton,TRUE
+34.0,2nd Class,1000,Southampton,TRUE
+19.0,2nd Class,1000,Southampton,TRUE
+23.0,2nd Class,1000,Southampton,FALSE
+25.0,2nd Class,1000,Southampton,FALSE
+42.0,2nd Class,1000,Southampton,FALSE
+29.0,2nd Class,1000,Southampton,FALSE
+24.0,2nd Class,,Southampton,FALSE
+20.0,2nd Class,,Southampton,FALSE
+32.0,2nd Class,1000,Southampton,FALSE
+18.0,2nd Class,1000,Southampton,TRUE
+15.0,2nd Class,3010,Southampton,TRUE
+60.0,2nd Class,3010,Southampton,FALSE
+40.0,2nd Class,3010,Southampton,TRUE
+20.0,2nd Class,2010,Southampton,TRUE
+25.0,2nd Class,2010,Southampton,FALSE
+36.0,2nd Class,1000,Southampton,TRUE
+25.0,2nd Class,1000,Southampton,FALSE
+42.0,2nd Class,1000,Southampton,FALSE
+42.0,2nd Class,1000,Southampton,TRUE
+0.0,2nd Class,2240,Southampton,TRUE
+26.0,2nd Class,2240,Southampton,TRUE
+28.0,2nd Class,2240,Southampton,TRUE
+35.0,2nd Class,1620,Southampton,TRUE
+21.0,2nd Class,,Belfast,FALSE
+19.0,2nd Class,1000,Southampton,FALSE
+54.0,2nd Class,2010,Southampton,FALSE
+45.0,2nd Class,2010,Southampton,FALSE
+52.0,2nd Class,1040,Southampton,FALSE
+36.0,2nd Class,2010,Southampton,FALSE
+28.0,2nd Class,2010,Southampton,FALSE
+25.0,2nd Class,2320,Southampton,TRUE
+45.0,2nd Class,2320,Southampton,TRUE
+29.0,2nd Class,2010,Southampton,FALSE
+30.0,2nd Class,,Southampton,FALSE
+28.0,2nd Class,2080,Southampton,TRUE
+29.0,2nd Class,811,Southampton,FALSE
+27.0,2nd Class,1000,Southampton,FALSE
+25.0,2nd Class,811,Southampton,TRUE
+8.0,2nd Class,2030,Southampton,TRUE
+31.0,2nd Class,2030,Southampton,FALSE
+31.0,2nd Class,2030,Southampton,TRUE
+22.0,2nd Class,811,Southampton,TRUE
+30.0,2nd Class,1000,Southampton,FALSE
+30.0,2nd Class,1620,Southampton,FALSE
+20.0,2nd Class,888,Southampton,FALSE
+21.0,2nd Class,,Belfast,FALSE
+8.0,2nd Class,2840,Southampton,TRUE
+21.0,2nd Class,5680,Southampton,FALSE
+48.0,2nd Class,2840,Southampton,TRUE
+28.0,2nd Class,1000,Southampton,TRUE
+20.0,2nd Class,5680,Southampton,FALSE
+29.0,2nd Class,2140,Cherbourg,FALSE
+24.0,2nd Class,2140,Cherbourg,TRUE
+25.0,2nd Class,2430,Southampton,FALSE
+18.0,2nd Class,5680,Southampton,FALSE
+18.0,2nd Class,1780,Southampton,TRUE
+34.0,2nd Class,1780,Southampton,TRUE
+55.0,2nd Class,2010,Southampton,FALSE
+8.0,2nd Class,2510,Southampton,TRUE
+42.0,2nd Class,2510,Southampton,FALSE
+34.0,2nd Class,2510,Southampton,TRUE
+27.0,2nd Class,1070,Cherbourg,TRUE
+30.0,2nd Class,1070,Cherbourg,TRUE
+23.0,2nd Class,1000,Southampton,FALSE
+21.0,2nd Class,1000,Southampton,FALSE
+18.0,2nd Class,1000,Southampton,FALSE
+40.0,2nd Class,2010,Southampton,FALSE
+18.0,2nd Class,811,Southampton,FALSE
+38.0,2nd Class,1000,Southampton,FALSE
+37.0,2nd Class,,Belfast,FALSE
+38.0,2nd Class,1000,Southampton,FALSE
+35.0,2nd Class,2010,Southampton,FALSE
+38.0,2nd Class,1620,Southampton,FALSE
+33.0,2nd Class,1620,Southampton,FALSE
+34.0,2nd Class,1000,Southampton,TRUE
+16.0,2nd Class,2010,Southampton,FALSE
+26.0,2nd Class,811,Southampton,FALSE
+47.0,2nd Class,811,Southampton,FALSE
+21.0,2nd Class,888,Southampton,FALSE
+20.0,2nd Class,888,Southampton,FALSE
+24.0,2nd Class,1040,Southampton,FALSE
+24.0,2nd Class,1000,Southampton,FALSE
+34.0,2nd Class,1000,Southampton,FALSE
+30.0,2nd Class,1000,Southampton,FALSE
+52.0,2nd Class,1000,Southampton,FALSE
+0.0,2nd Class,1120,Southampton,TRUE
+23.0,2nd Class,1120,Southampton,TRUE
+30.0,2nd Class,1000,Southampton,FALSE
+44.0,2nd Class,1000,Southampton,FALSE
+6.0,2nd Class,2550,Southampton,TRUE
+39.0,2nd Class,2550,Southampton,FALSE
+62.0,2nd Class,811,Southampton,TRUE
+30.0,2nd Class,811,Southampton,FALSE
+7.0,2nd Class,2030,Southampton,TRUE
+47.0,2nd Class,2030,Southampton,FALSE
+48.0,2nd Class,2030,Southampton,TRUE
+33.0,2nd Class,,Southampton,FALSE
+24.0,2nd Class,5020,Southampton,TRUE
+24.0,2nd Class,5020,Southampton,TRUE
+49.0,2nd Class,5020,Southampton,FALSE
+48.0,2nd Class,5020,Southampton,TRUE
+56.0,2nd Class,1240,Southampton,TRUE
+24.0,2nd Class,5680,Southampton,FALSE
+30.0,2nd Class,5680,Southampton,FALSE
+20.0,2nd Class,5680,Southampton,FALSE
+18.0,2nd Class,1000,Southampton,FALSE
+20.0,2nd Class,1780,Southampton,TRUE
+23.0,2nd Class,888,Southampton,FALSE
+36.0,2nd Class,1000,Southampton,FALSE
+54.0,2nd Class,1780,Southampton,TRUE
+50.0,2nd Class,1000,Southampton,FALSE
+44.0,2nd Class,2010,Southampton,FALSE
+29.0,2nd Class,2010,Southampton,TRUE
+22.0,2nd Class,5680,Southampton,FALSE
+41.0,2nd Class,1000,Southampton,TRUE
+63.0,2nd Class,2010,Southampton,FALSE
+60.0,2nd Class,2010,Southampton,FALSE
+29.0,2nd Class,,Southampton,FALSE
+33.0,2nd Class,948,Southampton,FALSE
+17.0,2nd Class,811,Southampton,TRUE
+40.0,2nd Class,2080,Southampton,FALSE
+24.0,2nd Class,2080,Southampton,TRUE
+47.0,2nd Class,1160,Southampton,FALSE
+24.0,2nd Class,2430,Southampton,FALSE
+22.0,2nd Class,2430,Southampton,FALSE
+32.0,2nd Class,811,Southampton,FALSE
+23.0,2nd Class,1060,Cherbourg,TRUE
+34.0,2nd Class,2010,Southampton,FALSE
+24.0,2nd Class,2010,Southampton,TRUE
+28.0,2nd Class,1620,Southampton,FALSE
+46.0,2nd Class,954,Queenstown,TRUE
+35.0,2nd Class,954,Queenstown,FALSE
+45.0,2nd Class,1040,Southampton,TRUE
+52.0,2nd Class,954,Queenstown,FALSE
+39.0,2nd Class,,Belfast,FALSE
+23.0,2nd Class,,Southampton,FALSE
+31.0,2nd Class,811,Southampton,FALSE
+36.0,2nd Class,994,Southampton,FALSE
+35.0,2nd Class,2010,Southampton,FALSE
+34.0,2nd Class,2010,Southampton,FALSE
+30.0,2nd Class,827,Queenstown,FALSE
+1.0,2nd Class,3210,Cherbourg,TRUE
+3.0,2nd Class,3210,Cherbourg,TRUE
+25.0,2nd Class,3210,Cherbourg,FALSE
+22.0,2nd Class,3210,Cherbourg,TRUE
+17.0,2nd Class,927,Cherbourg,TRUE
+31.0,2nd Class,2550,Southampton,TRUE
+34.0,2nd Class,811,Southampton,TRUE
+25.0,2nd Class,811,Southampton,FALSE
+61.0,2nd Class,954,Queenstown,FALSE
+50.0,2nd Class,2010,Southampton,FALSE
+42.0,2nd Class,2010,Southampton,TRUE
+23.0,2nd Class,606,Southampton,TRUE
+57.0,2nd Class,811,Southampton,FALSE
+25.0,2nd Class,1160,Cherbourg,FALSE
+1.0,2nd Class,2860,Cherbourg,TRUE
+31.0,2nd Class,2860,Cherbourg,FALSE
+24.0,2nd Class,2860,Cherbourg,TRUE
+30.0,2nd Class,1200,Cherbourg,FALSE
+30.0,2nd Class,1000,Southampton,FALSE
+36.0,2nd Class,1240,Southampton,FALSE
+32.0,2nd Class,1040,Southampton,FALSE
+30.0,2nd Class,1000,Southampton,FALSE
+46.0,2nd Class,2010,Southampton,FALSE
+13.0,2nd Class,1510,Southampton,TRUE
+41.0,2nd Class,1510,Southampton,TRUE
+19.0,2nd Class,811,Southampton,TRUE
+31.0,2nd Class,1000,Southampton,FALSE
+48.0,2nd Class,1000,Southampton,FALSE
+71.0,2nd Class,811,Southampton,FALSE
+27.0,2nd Class,1000,Southampton,FALSE
+54.0,2nd Class,1080,Southampton,FALSE
+38.0,2nd Class,2010,Southampton,FALSE
+16.0,2nd Class,811,Southampton,FALSE
+63.0,2nd Class,748,Queenstown,FALSE
+28.0,2nd Class,2320,Cherbourg,FALSE
+14.0,2nd Class,2320,Cherbourg,TRUE
+2.0,2nd Class,2010,Southampton,TRUE
+3.0,2nd Class,2010,Southampton,TRUE
+32.0,2nd Class,2010,Southampton,FALSE
+26.0,2nd Class,1000,Southampton,FALSE
+19.0,2nd Class,2840,Southampton,FALSE
+28.0,2nd Class,1040,Southampton,FALSE
+29.0,2nd Class,811,Southampton,TRUE
+38.0,2nd Class,1000,Southampton,FALSE
+22.0,2nd Class,811,Southampton,TRUE
+26.0,2nd Class,1070,Cherbourg,TRUE
+23.0,2nd Class,811,Southampton,FALSE
+29.0,2nd Class,1070,Cherbourg,TRUE
+28.0,2nd Class,811,Southampton,FALSE
+18.0,2nd Class,,Belfast,FALSE
+59.0,2nd Class,2010,Southampton,TRUE
+19.0,2nd Class,811,Southampton,FALSE
+39.0,2nd Class,1160,Cherbourg,FALSE
+41.0,2nd Class,1000,Southampton,FALSE
+21.0,2nd Class,1620,Southampton,TRUE
+19.0,2nd Class,2010,Southampton,TRUE
+42.0,2nd Class,1620,Southampton,FALSE
+32.0,2nd Class,1000,Southampton,TRUE
+24.0,2nd Class,1000,Southampton,FALSE
+30.0,2nd Class,984,Cherbourg,TRUE
+27.0,2nd Class,1190,Cherbourg,FALSE
+2.0,2nd Class,2010,Southampton,TRUE
+8.0,2nd Class,2010,Southampton,TRUE
+33.0,2nd Class,2010,Southampton,TRUE
+36.0,2nd Class,811,Southampton,FALSE
+33.0,2nd Class,1620,Southampton,FALSE
+30.0,2nd Class,1620,Southampton,TRUE
+28.0,2nd Class,1000,Southampton,TRUE
+23.0,2nd Class,1160,Cherbourg,FALSE
+0.0,2nd Class,1450,Southampton,TRUE
+3.0,2nd Class,1450,Southampton,TRUE
+24.0,2nd Class,1450,Southampton,TRUE
+50.0,2nd Class,811,Southampton,TRUE
+18.0,2nd Class,811,Southampton,FALSE
+21.0,2nd Class,811,Southampton,TRUE
+26.0,2nd Class,1000,Southampton,FALSE
+25.0,2nd Class,1000,Southampton,FALSE
+27.0,2nd Class,2010,Southampton,FALSE
+25.0,2nd Class,2010,Southampton,TRUE
+17.0,2nd Class,1000,Southampton,TRUE
+20.0,2nd Class,2840,Southampton,TRUE
+30.0,2nd Class,1000,Southampton,TRUE
+59.0,2nd Class,1040,Southampton,FALSE
+30.0,2nd Class,954,Queenstown,TRUE
+35.0,2nd Class,811,Southampton,FALSE
+39.0,2nd Class,1000,Southampton,TRUE
+25.0,2nd Class,1000,Southampton,FALSE
+42.0,2nd Class,1160,Cherbourg,FALSE
+25.0,2nd Class,811,Southampton,FALSE
+26.0,2nd Class,1000,Southampton,FALSE
+14.0,2nd Class,5020,Southampton,FALSE
+32.0,2nd Class,,Southampton,FALSE
+48.0,2nd Class,811,Southampton,TRUE
+23.0,2nd Class,1000,Southampton,FALSE
+26.0,2nd Class,977,Southampton,TRUE
+27.0,2nd Class,811,Southampton,TRUE
+29.0,2nd Class,1620,Southampton,FALSE
+27.0,2nd Class,1620,Southampton,FALSE
+40.0,2nd Class,1000,Southampton,FALSE
+36.0,2nd Class,1620,Southampton,TRUE
+45.0,2nd Class,1620,Southampton,FALSE
+23.0,2nd Class,811,Southampton,FALSE
+31.0,2nd Class,1620,Southampton,TRUE
+15.0,2nd Class,,Belfast,FALSE
+12.0,2nd Class,1220,Southampton,TRUE
+40.0,2nd Class,1220,Southampton,TRUE
+37.0,2nd Class,1000,Southampton,TRUE
+28.0,2nd Class,2010,Southampton,FALSE
+37.0,2nd Class,2010,Southampton,TRUE
+2.0,2nd Class,1780,Southampton,TRUE
+4.0,2nd Class,1780,Southampton,TRUE
+29.0,2nd Class,1780,Southampton,TRUE
+0.0,2nd Class,2140,Southampton,TRUE
+4.0,2nd Class,2140,Southampton,TRUE
+36.0,2nd Class,2140,Southampton,FALSE
+33.0,2nd Class,2140,Southampton,TRUE
+66.0,2nd Class,811,Southampton,FALSE
+24.0,2nd Class,994,Southampton,FALSE
+32.0,2nd Class,1000,Southampton,TRUE
+35.0,2nd Class,2010,Southampton,TRUE
+23.0,2nd Class,1000,Southampton,TRUE
+32.0,2nd Class,,Southampton,FALSE
+26.0,2nd Class,1040,Southampton,TRUE
+24.0,2nd Class,1000,Southampton,FALSE
+23.0,3rd Class,712,Southampton,FALSE
+30.0,3rd Class,560,Southampton,FALSE
+22.0,3rd Class,600,Southampton,TRUE
+42.0,3rd Class,583,Southampton,FALSE
+14.0,3rd Class,1560,Southampton,FALSE
+16.0,3rd Class,1560,Southampton,FALSE
+39.0,3rd Class,1560,Southampton,TRUE
+16.0,3rd Class,591,Southampton,TRUE
+25.0,3rd Class,591,Southampton,TRUE
+20.0,3rd Class,612,Southampton,TRUE
+18.0,3rd Class,558,Cherbourg,TRUE
+26.0,3rd Class,622,Southampton,FALSE
+40.0,3rd Class,732,Southampton,FALSE
+0.8,3rd Class,722,Southampton,TRUE
+18.0,3rd Class,722,Southampton,TRUE
+26.0,3rd Class,1450,Cherbourg,TRUE
+23.0,3rd Class,609,Southampton,FALSE
+19.0,3rd Class,612,Southampton,FALSE
+24.0,3rd Class,544,Southampton,FALSE
+25.0,3rd Class,544,Southampton,FALSE
+35.0,3rd Class,622,Southampton,FALSE
+15.0,3rd Class,641,Southampton,FALSE
+19.0,3rd Class,606,Southampton,TRUE
+33.0,3rd Class,1740,Southampton,FALSE
+4.0,3rd Class,2420,Southampton,FALSE
+6.0,3rd Class,2420,Southampton,FALSE
+2.0,3rd Class,2420,Southampton,FALSE
+17.0,3rd Class,612,Southampton,TRUE
+38.0,3rd Class,600,Southampton,FALSE
+9.0,3rd Class,2420,Southampton,FALSE
+11.0,3rd Class,2420,Southampton,FALSE
+39.0,3rd Class,2420,Southampton,FALSE
+26.0,3rd Class,600,Southampton,FALSE
+39.0,3rd Class,2420,Southampton,FALSE
+20.0,3rd Class,606,Southampton,FALSE
+26.0,3rd Class,610,Southampton,FALSE
+25.0,3rd Class,1380,Southampton,FALSE
+18.0,3rd Class,1380,Southampton,FALSE
+24.0,3rd Class,600,Southampton,FALSE
+35.0,3rd Class,544,Southampton,FALSE
+5.0,3rd Class,2420,Southampton,FALSE
+9.0,3rd Class,2420,Southampton,FALSE
+3.0,3rd Class,2420,Southampton,TRUE
+13.0,3rd Class,2420,Southampton,FALSE
+5.0,3rd Class,2420,Southampton,TRUE
+40.0,3rd Class,2420,Southampton,FALSE
+23.0,3rd Class,602,Southampton,TRUE
+38.0,3rd Class,2420,Southampton,TRUE
+45.0,3rd Class,558,Cherbourg,TRUE
+23.0,3rd Class,544,Southampton,FALSE
+27.0,3rd Class,558,Cherbourg,FALSE
+17.0,3rd Class,1120,Cherbourg,FALSE
+23.0,3rd Class,606,Southampton,FALSE
+15.0,3rd Class,558,Cherbourg,TRUE
+20.0,3rd Class,558,Cherbourg,FALSE
+32.0,3rd Class,1220,Southampton,FALSE
+33.0,3rd Class,1220,Southampton,TRUE
+3.0,3rd Class,1490,Cherbourg,TRUE
+0.0,3rd Class,1490,Cherbourg,TRUE
+5.0,3rd Class,1490,Cherbourg,TRUE
+24.0,3rd Class,1490,Cherbourg,TRUE
+18.0,3rd Class,622,Southampton,TRUE
+40.0,3rd Class,558,Cherbourg,FALSE
+26.0,3rd Class,610,Southampton,FALSE
+31.0,3rd Class,671,Southampton,TRUE
+18.0,3rd Class,1120,Cherbourg,FALSE
+45.0,3rd Class,1120,Cherbourg,FALSE
+26.0,3rd Class,608,Queenstown,FALSE
+22.0,3rd Class,622,Southampton,FALSE
+18.0,3rd Class,622,Southampton,FALSE
+26.0,3rd Class,600,Southampton,FALSE
+22.0,3rd Class,722,Southampton,FALSE
+20.0,3rd Class,558,Cherbourg,FALSE
+32.0,3rd Class,4360,Southampton,TRUE
+21.0,3rd Class,600,Southampton,FALSE
+18.0,3rd Class,598,Southampton,FALSE
+26.0,3rd Class,610,Southampton,FALSE
+9.0,3rd Class,1180,Cherbourg,FALSE
+7.0,3rd Class,1180,Cherbourg,FALSE
+40.0,3rd Class,1180,Cherbourg,FALSE
+40.0,3rd Class,598,Queenstown,FALSE
+42.0,3rd Class,1200,Queenstown,FALSE
+32.0,3rd Class,1200,Queenstown,FALSE
+26.0,3rd Class,1240,Southampton,FALSE
+22.0,3rd Class,597,Queenstown,TRUE
+20.0,3rd Class,606,Southampton,FALSE
+29.0,3rd Class,583,Southampton,FALSE
+22.0,3rd Class,560,Southampton,FALSE
+22.0,3rd Class,602,Southampton,FALSE
+35.0,3rd Class,622,Southampton,FALSE
+22.0,3rd Class,562,Queenstown,FALSE
+21.0,3rd Class,602,Queenstown,TRUE
+19.0,3rd Class,521,Queenstown,FALSE
+17.0,3rd Class,608,Queenstown,FALSE
+21.0,3rd Class,669,Southampton,FALSE
+30.0,3rd Class,669,Southampton,FALSE
+18.0,3rd Class,669,Southampton,FALSE
+38.0,3rd Class,669,Southampton,FALSE
+17.0,3rd Class,669,Southampton,FALSE
+17.0,3rd Class,669,Southampton,FALSE
+22.0,3rd Class,598,Queenstown,FALSE
+21.0,3rd Class,598,Queenstown,FALSE
+21.0,3rd Class,622,Southampton,FALSE
+28.0,3rd Class,1120,Cherbourg,FALSE
+18.0,3rd Class,1120,Cherbourg,FALSE
+28.0,3rd Class,602,Southampton,FALSE
+24.0,3rd Class,606,Southampton,FALSE
+45.0,3rd Class,598,Queenstown,FALSE
+28.0,3rd Class,560,Southampton,FALSE
+24.0,3rd Class,622,Southampton,FALSE
+20.0,3rd Class,597,Queenstown,FALSE
+29.0,3rd Class,558,Cherbourg,FALSE
+32.0,3rd Class,4360,Southampton,TRUE
+29.0,3rd Class,622,Southampton,FALSE
+26.0,3rd Class,1120,Cherbourg,FALSE
+21.0,3rd Class,1120,Cherbourg,FALSE
+20.0,3rd Class,544,Southampton,FALSE
+18.0,3rd Class,622,Southampton,TRUE
+24.0,3rd Class,560,Queenstown,FALSE
+24.0,3rd Class,610,Southampton,FALSE
+36.0,3rd Class,610,Southampton,FALSE
+31.0,3rd Class,597,Queenstown,FALSE
+31.0,3rd Class,598,Queenstown,FALSE
+35.0,3rd Class,589,Queenstown,FALSE
+23.0,3rd Class,598,Queenstown,TRUE
+66.0,3rd Class,598,Queenstown,FALSE
+43.0,3rd Class,622,Southampton,FALSE
+35.0,3rd Class,610,Southampton,FALSE
+27.0,3rd Class,610,Southampton,FALSE
+19.0,3rd Class,610,Southampton,FALSE
+30.0,3rd Class,622,Southampton,FALSE
+16.0,3rd Class,598,Queenstown,TRUE
+3.0,3rd Class,1230,Southampton,TRUE
+9.0,3rd Class,1230,Southampton,TRUE
+36.0,3rd Class,1230,Southampton,TRUE
+59.0,3rd Class,560,Southampton,FALSE
+19.0,3rd Class,630,Southampton,FALSE
+16.0,3rd Class,1240,Southampton,TRUE
+44.0,3rd Class,1240,Southampton,FALSE
+17.0,3rd Class,669,Southampton,FALSE
+28.0,3rd Class,558,Cherbourg,FALSE
+45.0,3rd Class,622,Southampton,TRUE
+22.0,3rd Class,812,Southampton,FALSE
+19.0,3rd Class,785,Southampton,FALSE
+30.0,3rd Class,537,Queenstown,TRUE
+29.0,3rd Class,598,Queenstown,TRUE
+0.0,3rd Class,1110,Southampton,FALSE
+34.0,3rd Class,1110,Southampton,FALSE
+28.0,3rd Class,1110,Southampton,FALSE
+27.0,3rd Class,610,Southampton,FALSE
+25.0,3rd Class,610,Southampton,FALSE
+24.0,3rd Class,1860,Southampton,FALSE
+22.0,3rd Class,622,Southampton,FALSE
+21.0,3rd Class,1860,Southampton,FALSE
+17.0,3rd Class,622,Southampton,FALSE
+32.0,3rd Class,1240,Southampton,FALSE
+34.0,3rd Class,1240,Southampton,TRUE
+36.0,3rd Class,1340,Southampton,TRUE
+36.0,3rd Class,1340,Southampton,TRUE
+30.0,3rd Class,734,Southampton,TRUE
+16.0,3rd Class,734,Southampton,FALSE
+1.0,3rd Class,1590,Southampton,TRUE
+0.0,3rd Class,1590,Southampton,TRUE
+25.0,3rd Class,1590,Southampton,FALSE
+32.0,3rd Class,1590,Southampton,TRUE
+25.0,3rd Class,610,Southampton,FALSE
+30.0,3rd Class,610,Southampton,FALSE
+22.0,3rd Class,560,Southampton,FALSE
+26.0,3rd Class,560,Southampton,FALSE
+19.0,3rd Class,608,Queenstown,TRUE
+17.0,3rd Class,610,Southampton,FALSE
+42.0,3rd Class,669,Southampton,FALSE
+43.0,3rd Class,610,Southampton,FALSE
+21.0,3rd Class,598,Queenstown,FALSE
+38.0,3rd Class,598,Queenstown,FALSE
+18.0,3rd Class,622,Southampton,TRUE
+22.0,3rd Class,653,Queenstown,FALSE
+31.0,3rd Class,963,Southampton,TRUE
+24.0,3rd Class,598,Queenstown,FALSE
+33.0,3rd Class,610,Cherbourg,FALSE
+24.0,3rd Class,622,Southampton,TRUE
+19.0,3rd Class,583,Southampton,TRUE
+65.0,3rd Class,598,Queenstown,FALSE
+23.0,3rd Class,1070,Southampton,FALSE
+22.0,3rd Class,1070,Southampton,TRUE
+18.0,3rd Class,600,Southampton,FALSE
+16.0,3rd Class,600,Southampton,FALSE
+45.0,3rd Class,539,Southampton,FALSE
+22.0,3rd Class,558,Cherbourg,FALSE
+29.0,3rd Class,558,Cherbourg,FALSE
+15.0,3rd Class,558,Cherbourg,FALSE
+47.0,3rd Class,560,Southampton,FALSE
+5.0,3rd Class,963,Southampton,TRUE
+37.0,3rd Class,544,Southampton,FALSE
+39.0,3rd Class,1170,Southampton,FALSE
+25.0,3rd Class,598,Queenstown,FALSE
+34.0,3rd Class,544,Southampton,TRUE
+18.0,3rd Class,602,Southampton,FALSE
+22.0,3rd Class,598,Queenstown,FALSE
+28.0,3rd Class,598,Queenstown,FALSE
+42.0,3rd Class,537,Queenstown,FALSE
+19.0,3rd Class,608,Queenstown,FALSE
+20.0,3rd Class,598,Queenstown,FALSE
+32.0,3rd Class,4360,Southampton,TRUE
+20.0,3rd Class,2650,Southampton,FALSE
+7.0,3rd Class,2650,Southampton,FALSE
+22.0,3rd Class,622,Southampton,FALSE
+18.0,3rd Class,2650,Southampton,FALSE
+16.0,3rd Class,2650,Southampton,FALSE
+48.0,3rd Class,2650,Southampton,FALSE
+28.0,3rd Class,598,Queenstown,FALSE
+38.0,3rd Class,560,Southampton,FALSE
+29.0,3rd Class,598,Queenstown,FALSE
+21.0,3rd Class,1120,Southampton,FALSE
+38.0,3rd Class,558,Cherbourg,TRUE
+21.0,3rd Class,558,Cherbourg,FALSE
+,3rd Class,610,Cherbourg,FALSE
+22.0,3rd Class,622,Southampton,FALSE
+17.0,3rd Class,597,Queenstown,TRUE
+19.0,3rd Class,598,Queenstown,TRUE
+9.0,3rd Class,1580,Southampton,TRUE
+33.0,3rd Class,1580,Southampton,FALSE
+41.0,3rd Class,606,Southampton,FALSE
+31.0,3rd Class,1580,Southampton,TRUE
+9.0,3rd Class,3620,Southampton,FALSE
+1.0,3rd Class,3620,Southampton,FALSE
+11.0,3rd Class,3620,Southampton,FALSE
+10.0,3rd Class,3620,Southampton,FALSE
+16.0,3rd Class,3620,Southampton,FALSE
+14.0,3rd Class,3620,Southampton,FALSE
+42.0,3rd Class,3620,Southampton,FALSE
+43.0,3rd Class,3620,Southampton,FALSE
+32.0,3rd Class,646,Southampton,FALSE
+40.0,3rd Class,622,Southampton,FALSE
+23.0,3rd Class,622,Southampton,FALSE
+19.0,3rd Class,760,Southampton,FALSE
+37.0,3rd Class,612,Southampton,FALSE
+28.0,3rd Class,612,Southampton,FALSE
+19.0,3rd Class,600,Southampton,FALSE
+24.0,3rd Class,683,Southampton,FALSE
+28.0,3rd Class,538,Southampton,FALSE
+19.0,3rd Class,538,Southampton,FALSE
+28.0,3rd Class,1220,Southampton,FALSE
+24.0,3rd Class,1220,Southampton,TRUE
+19.0,3rd Class,734,Southampton,FALSE
+18.0,3rd Class,558,Cherbourg,FALSE
+35.0,3rd Class,558,Cherbourg,FALSE
+27.0,3rd Class,558,Cherbourg,TRUE
+41.0,3rd Class,1090,Southampton,FALSE
+26.0,3rd Class,606,Southampton,FALSE
+21.0,3rd Class,606,Southampton,FALSE
+45.0,3rd Class,1090,Southampton,TRUE
+17.0,3rd Class,597,Queenstown,FALSE
+21.0,3rd Class,583,Southampton,FALSE
+28.0,3rd Class,530,Queenstown,FALSE
+11.0,3rd Class,1450,Cherbourg,FALSE
+29.0,3rd Class,598,Queenstown,TRUE
+27.0,3rd Class,539,Southampton,TRUE
+24.0,3rd Class,4360,Southampton,TRUE
+18.0,3rd Class,521,Queenstown,FALSE
+26.0,3rd Class,612,Southampton,TRUE
+23.0,3rd Class,612,Southampton,FALSE
+22.0,3rd Class,692,Southampton,TRUE
+28.0,3rd Class,610,Southampton,FALSE
+28.0,3rd Class,600,Southampton,FALSE
+21.0,3rd Class,598,Queenstown,FALSE
+2.0,3rd Class,949,Southampton,TRUE
+22.0,3rd Class,949,Southampton,TRUE
+43.0,3rd Class,498,Southampton,FALSE
+28.0,3rd Class,1740,Southampton,FALSE
+27.0,3rd Class,612,Southampton,TRUE
+22.0,3rd Class,598,Queenstown,FALSE
+27.0,3rd Class,622,Southampton,TRUE
+42.0,3rd Class,591,Southampton,FALSE
+34.0,3rd Class,609,Southampton,TRUE
+33.0,3rd Class,1120,Cherbourg,FALSE
+32.0,3rd Class,610,Southampton,FALSE
+27.0,3rd Class,612,Southampton,FALSE
+25.0,3rd Class,612,Southampton,FALSE
+20.0,3rd Class,610,Southampton,FALSE
+27.0,3rd Class,606,Southampton,FALSE
+16.0,3rd Class,1120,Cherbourg,FALSE
+19.0,3rd Class,1120,Cherbourg,FALSE
+29.0,3rd Class,610,Cherbourg,TRUE
+21.0,3rd Class,602,Southampton,TRUE
+21.0,3rd Class,544,Southampton,FALSE
+20.0,3rd Class,606,Southampton,FALSE
+48.0,3rd Class,545,Southampton,FALSE
+17.0,3rd Class,606,Southampton,FALSE
+26.0,3rd Class,598,Queenstown,TRUE
+29.0,3rd Class,626,Southampton,TRUE
+34.0,3rd Class,502,Southampton,FALSE
+26.0,3rd Class,600,Southampton,TRUE
+22.0,3rd Class,602,Southampton,FALSE
+33.0,3rd Class,668,Southampton,FALSE
+31.0,3rd Class,600,Southampton,FALSE
+29.0,3rd Class,606,Southampton,FALSE
+4.0,3rd Class,860,Southampton,TRUE
+1.0,3rd Class,860,Southampton,TRUE
+49.0,3rd Class,,Southampton,FALSE
+33.0,3rd Class,600,Southampton,FALSE
+19.0,3rd Class,,Southampton,FALSE
+26.0,3rd Class,860,Southampton,TRUE
+8.0,3rd Class,1810,Southampton,FALSE
+7.0,3rd Class,1810,Southampton,FALSE
+35.0,3rd Class,1810,Southampton,FALSE
+34.0,3rd Class,1810,Southampton,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+25.0,3rd Class,606,Southampton,TRUE
+39.0,3rd Class,558,Cherbourg,FALSE
+20.0,3rd Class,760,Southampton,FALSE
+21.0,3rd Class,760,Southampton,FALSE
+32.0,3rd Class,612,Southampton,TRUE
+17.0,3rd Class,550,Southampton,FALSE
+21.0,3rd Class,651,Southampton,FALSE
+30.0,3rd Class,610,Southampton,FALSE
+21.0,3rd Class,602,Southampton,TRUE
+33.0,3rd Class,606,Southampton,FALSE
+22.0,3rd Class,581,Southampton,FALSE
+4.0,3rd Class,1040,Cherbourg,TRUE
+39.0,3rd Class,1040,Cherbourg,TRUE
+18.0,3rd Class,558,Cherbourg,FALSE
+19.0,3rd Class,558,Cherbourg,FALSE
+23.0,3rd Class,598,Queenstown,FALSE
+39.0,3rd Class,560,Southampton,FALSE
+20.0,3rd Class,598,Queenstown,TRUE
+22.0,3rd Class,598,Queenstown,TRUE
+44.0,3rd Class,605,Queenstown,FALSE
+19.0,3rd Class,622,Southampton,FALSE
+24.0,3rd Class,598,Queenstown,TRUE
+25.0,3rd Class,1120,Cherbourg,FALSE
+20.0,3rd Class,1120,Cherbourg,FALSE
+25.0,3rd Class,598,Queenstown,FALSE
+22.0,3rd Class,598,Queenstown,FALSE
+22.0,3rd Class,597,Queenstown,FALSE
+4.0,3rd Class,1720,Southampton,TRUE
+26.0,3rd Class,1720,Southampton,TRUE
+22.0,3rd Class,669,Southampton,FALSE
+29.0,3rd Class,1720,Southampton,TRUE
+26.0,3rd Class,669,Southampton,FALSE
+1.0,3rd Class,941,Southampton,FALSE
+18.0,3rd Class,606,Southampton,FALSE
+36.0,3rd Class,941,Southampton,FALSE
+,3rd Class,610,Cherbourg,FALSE
+25.0,3rd Class,558,Cherbourg,TRUE
+26.0,3rd Class,583,Southampton,FALSE
+30.0,3rd Class,558,Cherbourg,FALSE
+37.0,3rd Class,740,Southampton,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+38.0,3rd Class,4360,Southampton,TRUE
+23.0,3rd Class,4360,Southampton,FALSE
+22.0,3rd Class,560,Southampton,TRUE
+16.0,3rd Class,598,Queenstown,FALSE
+32.0,3rd Class,4360,Southampton,TRUE
+22.0,3rd Class,600,Southampton,FALSE
+29.0,3rd Class,732,Southampton,FALSE
+29.0,3rd Class,600,Southampton,FALSE
+22.0,3rd Class,558,Cherbourg,TRUE
+5.0,3rd Class,1970,Southampton,FALSE
+3.0,3rd Class,1970,Southampton,FALSE
+8.0,3rd Class,1970,Southampton,FALSE
+12.0,3rd Class,1970,Southampton,FALSE
+40.0,3rd Class,1970,Southampton,FALSE
+32.0,3rd Class,612,Southampton,FALSE
+20.0,3rd Class,1200,Queenstown,FALSE
+36.0,3rd Class,,Southampton,FALSE
+26.0,3rd Class,1860,Southampton,FALSE
+24.0,3rd Class,734,Southampton,FALSE
+25.0,3rd Class,600,Southampton,FALSE
+45.0,3rd Class,598,Southampton,FALSE
+36.0,3rd Class,1200,Southampton,FALSE
+30.0,3rd Class,1200,Southampton,FALSE
+20.0,3rd Class,612,Southampton,TRUE
+21.0,3rd Class,608,Queenstown,FALSE
+28.0,3rd Class,4360,Southampton,FALSE
+27.0,3rd Class,734,Southampton,FALSE
+25.0,3rd Class,560,Southampton,FALSE
+30.0,3rd Class,1240,Southampton,FALSE
+26.0,3rd Class,1240,Southampton,FALSE
+21.0,3rd Class,608,Southampton,FALSE
+20.0,3rd Class,560,Southampton,FALSE
+29.0,3rd Class,669,Southampton,TRUE
+51.0,3rd Class,545,Southampton,FALSE
+32.0,3rd Class,585,Southampton,TRUE
+30.0,3rd Class,497,Cherbourg,FALSE
+44.0,3rd Class,610,Southampton,FALSE
+22.0,3rd Class,550,Southampton,FALSE
+29.0,3rd Class,612,Southampton,FALSE
+20.0,3rd Class,583,Southampton,FALSE
+21.0,3rd Class,598,Queenstown,TRUE
+24.0,3rd Class,551,Southampton,TRUE
+20.0,3rd Class,608,Queenstown,FALSE
+34.0,3rd Class,622,Southampton,FALSE
+20.0,3rd Class,558,Cherbourg,TRUE
+32.0,3rd Class,598,Queenstown,FALSE
+28.0,3rd Class,597,Queenstown,TRUE
+25.0,3rd Class,558,Cherbourg,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+35.0,3rd Class,610,Southampton,FALSE
+33.0,3rd Class,610,Cherbourg,FALSE
+30.0,3rd Class,610,Cherbourg,FALSE
+24.0,3rd Class,598,Queenstown,TRUE
+19.0,3rd Class,598,Queenstown,TRUE
+29.0,3rd Class,1800,Queenstown,TRUE
+26.0,3rd Class,1800,Queenstown,TRUE
+24.0,3rd Class,1800,Queenstown,TRUE
+31.0,3rd Class,600,Queenstown,TRUE
+19.0,3rd Class,1200,Queenstown,FALSE
+22.0,3rd Class,608,Queenstown,TRUE
+17.0,3rd Class,645,Queenstown,TRUE
+42.0,3rd Class,598,Queenstown,FALSE
+20.0,3rd Class,598,Queenstown,FALSE
+27.0,3rd Class,1240,Southampton,FALSE
+19.0,3rd Class,1240,Southampton,FALSE
+27.0,3rd Class,598,Queenstown,FALSE
+63.0,3rd Class,622,Southampton,FALSE
+22.0,3rd Class,598,Queenstown,FALSE
+31.0,3rd Class,622,Southampton,FALSE
+48.0,3rd Class,622,Southampton,FALSE
+28.0,3rd Class,598,Queenstown,FALSE
+21.0,3rd Class,600,Southampton,TRUE
+28.0,3rd Class,610,Southampton,FALSE
+23.0,3rd Class,622,Southampton,FALSE
+24.0,3rd Class,610,Southampton,FALSE
+21.0,3rd Class,610,Southampton,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+23.0,3rd Class,608,Queenstown,TRUE
+27.0,3rd Class,591,Southampton,FALSE
+7.0,3rd Class,963,Southampton,TRUE
+29.0,3rd Class,963,Southampton,TRUE
+19.0,3rd Class,622,Southampton,FALSE
+28.0,3rd Class,1860,Queenstown,TRUE
+27.0,3rd Class,1860,Queenstown,FALSE
+34.0,3rd Class,622,Southampton,FALSE
+30.0,3rd Class,598,Queenstown,FALSE
+29.0,3rd Class,600,Southampton,TRUE
+7.0,3rd Class,1180,Cherbourg,TRUE
+4.0,3rd Class,1180,Cherbourg,TRUE
+24.0,3rd Class,1180,Cherbourg,TRUE
+35.0,3rd Class,558,Cherbourg,TRUE
+22.0,3rd Class,558,Cherbourg,TRUE
+28.0,3rd Class,622,Southampton,FALSE
+21.0,3rd Class,597,Queenstown,TRUE
+18.0,3rd Class,1200,Queenstown,FALSE
+25.0,3rd Class,598,Queenstown,TRUE
+22.0,3rd Class,622,Southampton,FALSE
+18.0,3rd Class,1200,Queenstown,TRUE
+25.0,3rd Class,1200,Queenstown,TRUE
+34.0,3rd Class,1200,Queenstown,TRUE
+18.0,3rd Class,598,Southampton,FALSE
+22.0,3rd Class,610,Southampton,FALSE
+15.0,3rd Class,558,Cherbourg,TRUE
+17.0,3rd Class,558,Cherbourg,FALSE
+1.0,3rd Class,1220,Cherbourg,TRUE
+20.0,3rd Class,1220,Cherbourg,TRUE
+19.0,3rd Class,1220,Cherbourg,TRUE
+34.0,3rd Class,622,Southampton,FALSE
+32.0,3rd Class,610,Southampton,FALSE
+20.0,3rd Class,558,Cherbourg,FALSE
+20.0,3rd Class,558,Cherbourg,FALSE
+21.0,3rd Class,598,Queenstown,FALSE
+22.0,3rd Class,610,Southampton,FALSE
+11.0,3rd Class,868,Cherbourg,TRUE
+14.0,3rd Class,868,Cherbourg,TRUE
+29.0,3rd Class,612,Southampton,FALSE
+28.0,3rd Class,622,Southampton,FALSE
+18.0,3rd Class,600,Southampton,TRUE
+26.0,3rd Class,606,Southampton,TRUE
+21.0,3rd Class,606,Southampton,FALSE
+41.0,3rd Class,550,Southampton,FALSE
+39.0,3rd Class,612,Southampton,TRUE
+20.0,3rd Class,558,Cherbourg,FALSE
+21.0,3rd Class,602,Southampton,FALSE
+22.0,3rd Class,598,Southampton,TRUE
+60.0,3rd Class,482,Southampton,FALSE
+27.0,3rd Class,1200,Queenstown,FALSE
+21.0,3rd Class,605,Queenstown,FALSE
+26.0,3rd Class,1200,Queenstown,TRUE
+17.0,3rd Class,597,Queenstown,FALSE
+16.0,3rd Class,598,Queenstown,FALSE
+23.0,3rd Class,598,Queenstown,FALSE
+27.0,3rd Class,598,Queenstown,TRUE
+25.0,3rd Class,608,Queenstown,TRUE
+21.0,3rd Class,598,Queenstown,TRUE
+16.0,3rd Class,605,Queenstown,TRUE
+21.0,3rd Class,589,Queenstown,FALSE
+9.0,3rd Class,245,Southampton,TRUE
+28.0,3rd Class,1740,Southampton,FALSE
+42.0,3rd Class,649,Southampton,FALSE
+27.0,3rd Class,565,Southampton,FALSE
+31.0,3rd Class,606,Southampton,FALSE
+28.0,3rd Class,606,Southampton,FALSE
+32.0,3rd Class,600,Southampton,TRUE
+20.0,3rd Class,712,Southampton,FALSE
+23.0,3rd Class,669,Southampton,FALSE
+20.0,3rd Class,669,Southampton,FALSE
+20.0,3rd Class,669,Southampton,FALSE
+16.0,3rd Class,712,Southampton,FALSE
+2.0,3rd Class,1630,Southampton,FALSE
+6.0,3rd Class,1630,Southampton,FALSE
+3.0,3rd Class,1630,Southampton,FALSE
+8.0,3rd Class,1630,Southampton,FALSE
+29.0,3rd Class,1630,Southampton,FALSE
+1.0,3rd Class,3060,Southampton,FALSE
+14.0,3rd Class,3060,Southampton,FALSE
+7.0,3rd Class,3060,Southampton,FALSE
+2.0,3rd Class,3060,Southampton,FALSE
+16.0,3rd Class,3060,Southampton,FALSE
+41.0,3rd Class,3060,Southampton,FALSE
+21.0,3rd Class,669,Southampton,FALSE
+19.0,3rd Class,1120,Southampton,FALSE
+32.0,3rd Class,610,Southampton,FALSE
+0.0,3rd Class,1060,Southampton,FALSE
+3.0,3rd Class,1060,Southampton,FALSE
+26.0,3rd Class,1060,Southampton,FALSE
+32.0,3rd Class,541,Southampton,FALSE
+28.0,3rd Class,600,Southampton,FALSE
+24.0,3rd Class,622,Southampton,FALSE
+21.0,3rd Class,612,Southampton,FALSE
+25.0,3rd Class,612,Southampton,FALSE
+22.0,3rd Class,560,Southampton,FALSE
+25.0,3rd Class,600,Southampton,TRUE
+4.0,3rd Class,1730,Cherbourg,TRUE
+2.0,3rd Class,1730,Cherbourg,TRUE
+24.0,3rd Class,1730,Cherbourg,TRUE
+26.0,3rd Class,628,Queenstown,FALSE
+24.0,3rd Class,622,Southampton,FALSE
+28.0,3rd Class,610,Southampton,FALSE
+19.0,3rd Class,610,Southampton,FALSE
+29.0,3rd Class,610,Southampton,FALSE
+18.0,3rd Class,600,Southampton,FALSE
+25.0,3rd Class,600,Southampton,FALSE
+32.0,3rd Class,622,Southampton,TRUE
+27.0,3rd Class,610,Southampton,FALSE
+17.0,3rd Class,669,Southampton,FALSE
+24.0,3rd Class,669,Southampton,FALSE
+16.0,3rd Class,673,Cherbourg,FALSE
+27.0,3rd Class,610,Southampton,FALSE
+63.0,3rd Class,626,Southampton,FALSE
+30.0,3rd Class,558,Cherbourg,FALSE
+19.0,3rd Class,560,Southampton,FALSE
+38.0,3rd Class,610,Southampton,FALSE
+21.0,3rd Class,622,Southampton,FALSE
+10.0,3rd Class,2250,Queenstown,FALSE
+4.0,3rd Class,2250,Queenstown,FALSE
+7.0,3rd Class,2250,Queenstown,FALSE
+2.0,3rd Class,2250,Queenstown,FALSE
+8.0,3rd Class,2250,Queenstown,FALSE
+39.0,3rd Class,2250,Queenstown,FALSE
+22.0,3rd Class,3060,Southampton,FALSE
+35.0,3rd Class,550,Southampton,FALSE
+18.0,3rd Class,596,Queenstown,TRUE
+69.0,3rd Class,1120,Southampton,FALSE
+58.0,3rd Class,1120,Southampton,FALSE
+50.0,3rd Class,1120,Southampton,FALSE
+47.0,3rd Class,1120,Southampton,FALSE
+29.0,3rd Class,622,Southampton,FALSE
+49.0,3rd Class,600,Southampton,FALSE
+2.0,3rd Class,1560,Southampton,FALSE
+18.0,3rd Class,1560,Southampton,FALSE
+41.0,3rd Class,1560,Southampton,FALSE
+26.0,3rd Class,622,Southampton,TRUE
+53.0,3rd Class,622,Southampton,FALSE
+16.0,3rd Class,622,Southampton,FALSE
+24.0,3rd Class,598,Queenstown,TRUE
+29.0,3rd Class,1860,Queenstown,FALSE
+19.0,3rd Class,591,Southampton,FALSE
+43.0,3rd Class,560,Southampton,FALSE
+30.0,3rd Class,558,Cherbourg,FALSE
+27.0,3rd Class,558,Cherbourg,FALSE
+20.0,3rd Class,597,Queenstown,FALSE
+17.0,3rd Class,586,Southampton,FALSE
+12.0,3rd Class,5370,Southampton,FALSE
+4.0,3rd Class,5370,Southampton,FALSE
+7.0,3rd Class,5370,Southampton,FALSE
+14.0,3rd Class,5370,Southampton,FALSE
+10.0,3rd Class,5370,Southampton,FALSE
+20.0,3rd Class,5370,Southampton,FALSE
+18.0,3rd Class,5370,Southampton,FALSE
+16.0,3rd Class,5370,Southampton,FALSE
+19.0,3rd Class,5370,Southampton,FALSE
+44.0,3rd Class,5370,Southampton,FALSE
+44.0,3rd Class,5370,Southampton,FALSE
+24.0,3rd Class,720,Southampton,FALSE
+21.0,3rd Class,591,Southampton,TRUE
+29.0,3rd Class,612,Southampton,FALSE
+17.0,3rd Class,1670,Cherbourg,FALSE
+40.0,3rd Class,1670,Cherbourg,FALSE
+15.0,3rd Class,1670,Cherbourg,FALSE
+1.0,3rd Class,1290,Southampton,TRUE
+4.0,3rd Class,1290,Southampton,TRUE
+24.0,3rd Class,1290,Southampton,TRUE
+21.0,3rd Class,734,Southampton,TRUE
+19.0,3rd Class,622,Southampton,FALSE
+33.0,3rd Class,622,Southampton,FALSE
+22.0,3rd Class,597,Queenstown,FALSE
+29.0,3rd Class,734,Southampton,TRUE
+42.0,3rd Class,610,Southampton,FALSE
+10.0,3rd Class,320,Cherbourg,FALSE
+24.0,3rd Class,598,Queenstown,FALSE
+19.0,3rd Class,558,Cherbourg,FALSE
+55.0,3rd Class,1170,Southampton,FALSE
+20.0,3rd Class,605,Queenstown,TRUE
+22.0,3rd Class,622,Southampton,FALSE
+39.0,3rd Class,622,Southampton,FALSE
+22.0,3rd Class,558,Cherbourg,FALSE
+20.0,3rd Class,622,Southampton,FALSE
+40.0,3rd Class,610,Southampton,FALSE
+21.0,3rd Class,612,Southampton,FALSE
+18.0,3rd Class,502,Southampton,TRUE
+5.0,3rd Class,2150,Southampton,FALSE
+11.0,3rd Class,2150,Southampton,FALSE
+9.0,3rd Class,2150,Southampton,FALSE
+2.0,3rd Class,2150,Southampton,FALSE
+40.0,3rd Class,2150,Southampton,FALSE
+43.0,3rd Class,2150,Southampton,FALSE
+42.0,3rd Class,610,Southampton,FALSE
+20.0,3rd Class,622,Southampton,FALSE
+37.0,3rd Class,669,Southampton,FALSE
+17.0,3rd Class,597,Queenstown,TRUE
+26.0,3rd Class,598,Queenstown,FALSE
+31.0,3rd Class,622,Southampton,FALSE
+23.0,3rd Class,622,Southampton,FALSE
+32.0,3rd Class,622,Southampton,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+33.0,3rd Class,671,Cherbourg,FALSE
+24.0,3rd Class,583,Southampton,TRUE
+21.0,3rd Class,622,Southampton,FALSE
+51.0,3rd Class,,Southampton,FALSE
+19.0,3rd Class,610,Southampton,FALSE
+2.0,3rd Class,808,Southampton,FALSE
+29.0,3rd Class,808,Southampton,FALSE
+31.0,3rd Class,612,Southampton,TRUE
+22.0,3rd Class,760,Southampton,FALSE
+27.0,3rd Class,669,Southampton,FALSE
+20.0,3rd Class,622,Southampton,TRUE
+44.0,3rd Class,612,Southampton,TRUE
+25.0,3rd Class,544,Southampton,FALSE
+74.0,3rd Class,600,Southampton,FALSE
+14.0,3rd Class,712,Southampton,TRUE
+24.0,3rd Class,602,Southampton,FALSE
+41.0,3rd Class,622,Southampton,FALSE
+25.0,3rd Class,,Southampton,TRUE
+25.0,3rd Class,602,Southampton,TRUE
+34.0,3rd Class,622,Southampton,FALSE
+31.0,3rd Class,497,Cherbourg,FALSE
+16.0,3rd Class,658,Cherbourg,TRUE
+0.4,3rd Class,658,Cherbourg,TRUE
+34.0,3rd Class,497,Cherbourg,FALSE
+16.0,3rd Class,558,Cherbourg,FALSE
+36.0,3rd Class,622,Southampton,FALSE
+36.0,3rd Class,1240,Southampton,FALSE
+32.0,3rd Class,1240,Southampton,TRUE
+32.0,3rd Class,612,Southampton,FALSE
+20.0,3rd Class,598,Queenstown,FALSE
+23.0,3rd Class,610,Southampton,FALSE
+22.0,3rd Class,622,Southampton,FALSE
+20.0,3rd Class,558,Cherbourg,FALSE
+8.0,3rd Class,1180,Cherbourg,TRUE
+9.0,3rd Class,1180,Cherbourg,TRUE
+27.0,3rd Class,1180,Cherbourg,TRUE
+36.0,3rd Class,610,Southampton,FALSE
+18.0,3rd Class,760,Southampton,TRUE
+63.0,3rd Class,740,Southampton,TRUE
+10.0,3rd Class,1120,Southampton,FALSE
+9.0,3rd Class,1120,Southampton,FALSE
+35.0,3rd Class,1120,Southampton,FALSE
+35.0,3rd Class,734,Southampton,FALSE
+28.0,3rd Class,734,Southampton,FALSE
+10.0,3rd Class,1860,Southampton,FALSE
+36.0,3rd Class,1860,Southampton,FALSE
+30.0,3rd Class,1860,Southampton,FALSE
+23.0,3rd Class,734,Southampton,FALSE
+46.0,3rd Class,695,Southampton,FALSE
+18.0,3rd Class,1390,Southampton,FALSE
+31.0,3rd Class,1390,Southampton,FALSE
+15.0,3rd Class,1390,Southampton,FALSE
+31.0,3rd Class,1390,Southampton,FALSE
+28.0,3rd Class,734,Southampton,FALSE
+22.0,3rd Class,558,Cherbourg,TRUE
+20.0,3rd Class,606,Southampton,FALSE
+14.0,3rd Class,606,Southampton,FALSE
+21.0,3rd Class,610,Southampton,FALSE
+22.0,3rd Class,695,Southampton,FALSE
+34.0,3rd Class,622,Southampton,FALSE
+30.0,3rd Class,583,Southampton,FALSE
+25.0,3rd Class,558,Cherbourg,FALSE
+66.0,3rd Class,622,Southampton,FALSE
+27.0,3rd Class,602,Southampton,TRUE
+51.0,3rd Class,598,Southampton,FALSE
+18.0,3rd Class,502,Southampton,FALSE
+21.0,3rd Class,502,Southampton,FALSE
+47.0,3rd Class,541,Southampton,TRUE
+37.0,3rd Class,673,Cherbourg,FALSE
+18.0,3rd Class,583,Southampton,FALSE
+28.0,3rd Class,622,Southampton,FALSE
+28.0,3rd Class,1240,Southampton,FALSE
+21.0,3rd Class,560,Southampton,FALSE
+27.0,3rd Class,669,Southampton,FALSE
+54.0,3rd Class,560,Southampton,FALSE
+36.0,3rd Class,734,Southampton,FALSE
+27.0,3rd Class,1120,Cherbourg,FALSE
+15.0,3rd Class,1120,Cherbourg,TRUE
+45.0,3rd Class,558,Cherbourg,FALSE
+28.0,3rd Class,558,Cherbourg,FALSE
+22.0,3rd Class,558,Cherbourg,FALSE
+27.0,3rd Class,558,Cherbourg,FALSE
+29.0,3rd Class,608,Southampton,FALSE
+22.0,A la Carte,,Southampton,FALSE
+26.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+27.0,A la Carte,,Southampton,FALSE
+33.0,A la Carte,,Southampton,FALSE
+22.0,A la Carte,,Southampton,FALSE
+26.0,A la Carte,,Southampton,FALSE
+28.0,A la Carte,,Southampton,FALSE
+26.0,A la Carte,,Southampton,FALSE
+44.0,A la Carte,,Southampton,FALSE
+21.0,A la Carte,,Southampton,FALSE
+27.0,A la Carte,,Southampton,TRUE
+32.0,A la Carte,,Southampton,FALSE
+25.0,A la Carte,,Southampton,FALSE
+19.0,A la Carte,,Southampton,FALSE
+28.0,A la Carte,,Southampton,FALSE
+17.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+18.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+17.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+30.0,A la Carte,,Southampton,FALSE
+23.0,A la Carte,,Southampton,FALSE
+37.0,A la Carte,,Southampton,FALSE
+31.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+28.0,A la Carte,,Southampton,FALSE
+29.0,A la Carte,,Southampton,FALSE
+28.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,TRUE
+20.0,A la Carte,,Southampton,FALSE
+25.0,A la Carte,,Southampton,TRUE
+23.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+42.0,A la Carte,,Southampton,FALSE
+19.0,A la Carte,,Southampton,FALSE
+21.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+17.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+35.0,A la Carte,,Southampton,FALSE
+17.0,A la Carte,,Southampton,FALSE
+30.0,A la Carte,,Southampton,FALSE
+28.0,A la Carte,,Southampton,FALSE
+17.0,A la Carte,,Southampton,FALSE
+21.0,A la Carte,,Southampton,FALSE
+22.0,A la Carte,,Southampton,FALSE
+22.0,A la Carte,,Southampton,FALSE
+23.0,A la Carte,,Southampton,FALSE
+49.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+25.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+42.0,A la Carte,,Southampton,FALSE
+24.0,A la Carte,,Southampton,FALSE
+23.0,A la Carte,,Southampton,FALSE
+27.0,A la Carte,,Southampton,FALSE
+16.0,A la Carte,,Southampton,FALSE
+22.0,A la Carte,,Southampton,FALSE
+35.0,A la Carte,,Southampton,FALSE
+21.0,A la Carte,,Southampton,FALSE
+19.0,A la Carte,,Southampton,FALSE
+18.0,A la Carte,,Southampton,FALSE
+31.0,A la Carte,,Southampton,FALSE
+35.0,A la Carte,,Southampton,FALSE
+20.0,A la Carte,,Southampton,FALSE
+26.0,A la Carte,,Southampton,FALSE
+40.0,Deck,,Southampton,TRUE
+36.0,Deck,,Southampton,TRUE
+43.0,Deck,,Southampton,TRUE
+28.0,Deck,,Belfast,TRUE
+29.0,Deck,,Southampton,FALSE
+42.0,Deck,,Southampton,TRUE
+42.0,Deck,,Belfast,TRUE
+27.0,Deck,,Southampton,TRUE
+34.0,Deck,,Southampton,TRUE
+31.0,Deck,,Southampton,FALSE
+28.0,Deck,,Southampton,FALSE
+39.0,Deck,,Southampton,FALSE
+24.0,Deck,,Southampton,TRUE
+27.0,Deck,,Southampton,TRUE
+24.0,Deck,,Belfast,TRUE
+44.0,Deck,,Belfast,TRUE
+27.0,Deck,,Southampton,TRUE
+31.0,Deck,,Belfast,TRUE
+39.0,Deck,,Southampton,TRUE
+43.0,Deck,,Belfast,TRUE
+29.0,Deck,,Southampton,TRUE
+29.0,Deck,,Belfast,TRUE
+27.0,Deck,,Belfast,FALSE
+40.0,Deck,,Southampton,TRUE
+33.0,Deck,,Southampton,TRUE
+48.0,Deck,,Southampton,TRUE
+26.0,Deck,,Belfast,FALSE
+23.0,Deck,,Belfast,TRUE
+32.0,Deck,,Southampton,TRUE
+43.0,Deck,,Southampton,FALSE
+41.0,Deck,,Southampton,TRUE
+38.0,Deck,,Belfast,TRUE
+29.0,Deck,,Belfast,TRUE
+25.0,Deck,,Southampton,TRUE
+26.0,Deck,,Southampton,FALSE
+30.0,Deck,,Southampton,FALSE
+27.0,Deck,,Southampton,FALSE
+31.0,Deck,,Belfast,FALSE
+47.0,Deck,,Southampton,TRUE
+36.0,Deck,,Southampton,TRUE
+24.0,Deck,,Belfast,FALSE
+32.0,Deck,,Southampton,TRUE
+39.0,Deck,,Belfast,FALSE
+42.0,Deck,,Belfast,FALSE
+62.0,Deck,,Belfast,FALSE
+27.0,Deck,,Belfast,TRUE
+28.0,Deck,,Southampton,TRUE
+43.0,Deck,,Southampton,TRUE
+37.0,Deck,,Belfast,TRUE
+26.0,Deck,,Southampton,TRUE
+34.0,Deck,,Belfast,TRUE
+33.0,Deck,,Southampton,TRUE
+32.0,Deck,,Belfast,TRUE
+30.0,Deck,,Southampton,FALSE
+33.0,Deck,,Southampton,TRUE
+37.0,Deck,,Southampton,FALSE
+62.0,Deck,,Southampton,FALSE
+26.0,Deck,,Southampton,FALSE
+24.0,Deck,,Southampton,TRUE
+23.0,Deck,,Southampton,FALSE
+35.0,Deck,,Southampton,FALSE
+20.0,Deck,,Southampton,FALSE
+32.0,Deck,,Southampton,TRUE
+30.0,Deck,,Belfast,TRUE
+39.0,Deck,,Southampton,FALSE
+41.0,Deck,,Belfast,TRUE
+33.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+34.0,Engine,,Belfast,FALSE
+22.0,Engine,,Southampton,TRUE
+46.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,FALSE
+41.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,TRUE
+33.0,Engine,,Southampton,FALSE
+35.0,Engine,,Belfast,FALSE
+24.0,Engine,,Southampton,TRUE
+50.0,Engine,,Belfast,FALSE
+24.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+42.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,FALSE
+19.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+41.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,TRUE
+26.0,Engine,,Belfast,FALSE
+36.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,FALSE
+44.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+34.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+30.0,Engine,,Belfast,FALSE
+40.0,Engine,,Southampton,FALSE
+37.0,Engine,,Southampton,FALSE
+46.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,FALSE
+37.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,TRUE
+24.0,Engine,,Southampton,FALSE
+35.0,Engine,,Belfast,FALSE
+25.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,TRUE
+21.0,Engine,,Southampton,FALSE
+57.0,Engine,,Belfast,FALSE
+35.0,Engine,,Southampton,TRUE
+34.0,Engine,,Southampton,TRUE
+26.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+,Engine,,Southampton,FALSE
+45.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,TRUE
+26.0,Engine,,Belfast,FALSE
+23.0,Engine,,Southampton,FALSE
+44.0,Engine,,Belfast,FALSE
+21.0,Engine,,Southampton,TRUE
+39.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+36.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,TRUE
+24.0,Engine,,Southampton,TRUE
+38.0,Engine,,Belfast,FALSE
+27.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,TRUE
+22.0,Engine,,Southampton,TRUE
+27.0,Engine,,Southampton,FALSE
+28.0,Engine,,Belfast,FALSE
+24.0,Engine,,Belfast,FALSE
+25.0,Engine,,Southampton,TRUE
+22.0,Engine,,Southampton,FALSE
+44.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+18.0,Engine,,Belfast,FALSE
+30.0,Engine,,Southampton,FALSE
+39.0,Engine,,Belfast,FALSE
+30.0,Engine,,Southampton,FALSE
+34.0,Engine,,Southampton,FALSE
+38.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,TRUE
+27.0,Engine,,Belfast,FALSE
+43.0,Engine,,Southampton,TRUE
+22.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+37.0,Engine,,Belfast,FALSE
+30.0,Engine,,Southampton,FALSE
+29.0,Engine,,Belfast,FALSE
+20.0,Engine,,Southampton,TRUE
+26.0,Engine,,Southampton,TRUE
+24.0,Engine,,Southampton,FALSE
+34.0,Engine,,Southampton,TRUE
+34.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,FALSE
+42.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+28.0,Engine,,Belfast,TRUE
+20.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+35.0,Engine,,Belfast,TRUE
+32.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+53.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,TRUE
+38.0,Engine,,Belfast,FALSE
+49.0,Engine,,Southampton,FALSE
+34.0,Engine,,Belfast,FALSE
+45.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,TRUE
+29.0,Engine,,Southampton,TRUE
+33.0,Engine,,Belfast,FALSE
+25.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+29.0,Engine,,Belfast,FALSE
+26.0,Engine,,Southampton,FALSE
+46.0,Engine,,Belfast,FALSE
+22.0,Engine,,Southampton,FALSE
+22.0,Engine,,Southampton,FALSE
+36.0,Engine,,Belfast,FALSE
+22.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,TRUE
+20.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+37.0,Engine,,Southampton,FALSE
+38.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,TRUE
+35.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,TRUE
+43.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+38.0,Engine,,Southampton,FALSE
+44.0,Engine,,Southampton,FALSE
+23.0,Engine,,Belfast,FALSE
+24.0,Engine,,Southampton,TRUE
+43.0,Engine,,Belfast,FALSE
+37.0,Engine,,Southampton,FALSE
+43.0,Engine,,Belfast,FALSE
+26.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+42.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+18.0,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,FALSE
+47.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,TRUE
+29.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+32.0,Engine,,Belfast,FALSE
+32.0,Engine,,Southampton,TRUE
+22.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,TRUE
+39.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+60.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,TRUE
+36.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+38.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,TRUE
+34.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+37.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,TRUE
+26.0,Engine,,Belfast,FALSE
+32.0,Engine,,Southampton,FALSE
+22.0,Engine,,Belfast,FALSE
+26.0,Engine,,Belfast,FALSE
+28.0,Engine,,Southampton,FALSE
+26.0,Engine,,Belfast,FALSE
+33.0,Engine,,Belfast,FALSE
+46.0,Engine,,Southampton,FALSE
+18.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,TRUE
+21.0,Engine,,Southampton,FALSE
+44.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,FALSE
+23.0,Engine,,Belfast,FALSE
+33.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,TRUE
+30.0,Engine,,Southampton,TRUE
+25.0,Engine,,Southampton,TRUE
+31.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,TRUE
+35.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+31.0,Engine,,Southampton,FALSE
+29.0,Engine,,Southampton,FALSE
+42.0,Engine,,Belfast,FALSE
+26.0,Engine,,Belfast,FALSE
+28.0,Engine,,Southampton,TRUE
+39.0,Engine,,Southampton,TRUE
+19.0,Engine,,Southampton,TRUE
+23.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,TRUE
+20.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+23.0,Engine,,Southampton,FALSE
+31.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+29.0,Engine,,Southampton,TRUE
+21.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+31.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+36.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,FALSE
+26.0,Engine,,Belfast,FALSE
+23.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,TRUE
+39.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,TRUE
+31.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,TRUE
+32.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,TRUE
+20.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+31.0,Engine,,Belfast,FALSE
+40.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+35.0,Engine,,Belfast,FALSE
+22.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+21.0,Engine,,Southampton,TRUE
+30.0,Engine,,Southampton,TRUE
+30.0,Engine,,Southampton,FALSE
+,Engine,,Southampton,FALSE
+20.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+42.0,Engine,,Southampton,FALSE
+24.0,Engine,,Southampton,TRUE
+50.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,TRUE
+25.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,TRUE
+44.0,Engine,,Southampton,TRUE
+25.0,Engine,,Southampton,TRUE
+31.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,TRUE
+35.0,Engine,,Belfast,FALSE
+42.0,Engine,,Southampton,FALSE
+35.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,FALSE
+33.0,Engine,,Southampton,FALSE
+24.0,Engine,,Belfast,FALSE
+31.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+25.0,Engine,,Southampton,FALSE
+27.0,Engine,,Southampton,FALSE
+36.0,Engine,,Southampton,FALSE
+28.0,Engine,,Southampton,FALSE
+31.0,Engine,,Southampton,FALSE
+32.0,Engine,,Southampton,TRUE
+28.0,Engine,,Southampton,FALSE
+23.0,Engine,,Southampton,TRUE
+26.0,Engine,,Southampton,FALSE
+28.0,Engine,,Belfast,FALSE
+45.0,Engine,,Southampton,FALSE
+39.0,Engine,,Southampton,FALSE
+37.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+40.0,Engine,,Southampton,FALSE
+26.0,Engine,,Southampton,FALSE
+30.0,Engine,,Southampton,FALSE
+21.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,FALSE
+17.0,Victualling,,Southampton,FALSE
+26.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Belfast,FALSE
+48.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,TRUE
+26.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Belfast,FALSE
+28.0,Victualling,,Southampton,TRUE
+31.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Belfast,FALSE
+19.0,Victualling,,Southampton,TRUE
+19.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Southampton,FALSE
+15.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,FALSE
+51.0,Victualling,,Southampton,FALSE
+48.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,TRUE
+31.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Belfast,FALSE
+34.0,Victualling,,Belfast,FALSE
+45.0,Victualling,,Southampton,TRUE
+30.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Belfast,FALSE
+24.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Belfast,FALSE
+43.0,Victualling,,Southampton,FALSE
+48.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Belfast,TRUE
+33.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Belfast,FALSE
+30.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,TRUE
+28.0,Victualling,,Belfast,FALSE
+34.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+21.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Belfast,FALSE
+18.0,Victualling,,Southampton,TRUE
+30.0,Victualling,,Belfast,FALSE
+31.0,Victualling,,Belfast,TRUE
+29.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,TRUE
+21.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Belfast,FALSE
+34.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Southampton,TRUE
+27.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,FALSE
+20.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,TRUE
+25.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Belfast,FALSE
+28.0,Victualling,,Southampton,FALSE
+52.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Southampton,TRUE
+17.0,Victualling,,Southampton,TRUE
+25.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,TRUE
+36.0,Victualling,,Belfast,TRUE
+39.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Belfast,FALSE
+45.0,Victualling,,Belfast,TRUE
+35.0,Victualling,,Belfast,TRUE
+18.0,Victualling,,Southampton,TRUE
+19.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Belfast,FALSE
+27.0,Victualling,,Belfast,FALSE
+26.0,Victualling,,Belfast,FALSE
+19.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Belfast,FALSE
+26.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+49.0,Victualling,,Southampton,FALSE
+44.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+24.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+39.0,Victualling,,Southampton,FALSE
+39.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Belfast,TRUE
+27.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Belfast,FALSE
+37.0,Victualling,,Belfast,TRUE
+29.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+18.0,Victualling,,Southampton,FALSE
+26.0,Victualling,,Belfast,FALSE
+26.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+43.0,Victualling,,Belfast,FALSE
+31.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,TRUE
+33.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,TRUE
+28.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Belfast,FALSE
+44.0,Victualling,,Southampton,TRUE
+28.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,TRUE
+37.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,TRUE
+38.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Belfast,FALSE
+20.0,Victualling,,Southampton,FALSE
+21.0,Victualling,,Southampton,TRUE
+37.0,Victualling,,Belfast,TRUE
+19.0,Victualling,,Southampton,FALSE
+16.0,Victualling,,Southampton,FALSE
+18.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,TRUE
+31.0,Victualling,,Southampton,TRUE
+21.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,FALSE
+43.0,Victualling,,Southampton,FALSE
+44.0,Victualling,,Belfast,FALSE
+30.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Belfast,FALSE
+27.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+16.0,Victualling,,Belfast,FALSE
+37.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Belfast,FALSE
+20.0,Victualling,,Southampton,FALSE
+16.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Belfast,FALSE
+31.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+16.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Southampton,FALSE
+21.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Belfast,FALSE
+41.0,Victualling,,Belfast,FALSE
+25.0,Victualling,,Southampton,FALSE
+24.0,Victualling,,Southampton,TRUE
+25.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Belfast,TRUE
+17.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Belfast,TRUE
+28.0,Victualling,,Southampton,TRUE
+21.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+18.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,FALSE
+39.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Southampton,FALSE
+44.0,Victualling,,Southampton,TRUE
+21.0,Victualling,,Southampton,FALSE
+21.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Belfast,FALSE
+34.0,Victualling,,Southampton,FALSE
+55.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Southampton,FALSE
+41.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Southampton,FALSE
+26.0,Victualling,,Belfast,FALSE
+21.0,Victualling,,Belfast,FALSE
+27.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Belfast,TRUE
+32.0,Victualling,,Belfast,FALSE
+33.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,TRUE
+38.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,TRUE
+34.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+50.0,Victualling,,Southampton,FALSE
+26.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,TRUE
+29.0,Victualling,,Southampton,TRUE
+33.0,Victualling,,Southampton,TRUE
+31.0,Victualling,,Belfast,TRUE
+52.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Belfast,FALSE
+37.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Belfast,TRUE
+21.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Belfast,FALSE
+43.0,Victualling,,Belfast,FALSE
+34.0,Victualling,,Southampton,FALSE
+24.0,Victualling,,Southampton,FALSE
+51.0,Victualling,,Southampton,TRUE
+52.0,Victualling,,Belfast,FALSE
+39.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Belfast,TRUE
+34.0,Victualling,,Belfast,FALSE
+20.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,TRUE
+39.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,TRUE
+39.0,Victualling,,Belfast,FALSE
+28.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Belfast,FALSE
+49.0,Victualling,,Southampton,FALSE
+17.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+18.0,Victualling,,Southampton,FALSE
+24.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,TRUE
+33.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+49.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Southampton,FALSE
+39.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Belfast,TRUE
+25.0,Victualling,,Belfast,FALSE
+18.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,TRUE
+33.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Southampton,FALSE
+21.0,Victualling,,Southampton,TRUE
+40.0,Victualling,,Belfast,FALSE
+22.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Belfast,FALSE
+29.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Belfast,TRUE
+54.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Belfast,FALSE
+25.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Belfast,FALSE
+40.0,Victualling,,Belfast,FALSE
+41.0,Victualling,,Southampton,TRUE
+30.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,TRUE
+31.0,Victualling,,Belfast,FALSE
+58.0,Victualling,,Belfast,TRUE
+17.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,TRUE
+41.0,Victualling,,Southampton,FALSE
+26.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,TRUE
+21.0,Victualling,,Southampton,FALSE
+42.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,FALSE
+25.0,Victualling,,Southampton,TRUE
+39.0,Victualling,,Southampton,FALSE
+39.0,Victualling,,Belfast,FALSE
+29.0,Victualling,,Belfast,FALSE
+31.0,Victualling,,Southampton,TRUE
+25.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Belfast,FALSE
+28.0,Victualling,,Southampton,TRUE
+30.0,Victualling,,Southampton,TRUE
+29.0,Victualling,,Belfast,FALSE
+42.0,Victualling,,Southampton,TRUE
+38.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,FALSE
+20.0,Victualling,,Belfast,FALSE
+24.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Southampton,FALSE
+47.0,Victualling,,Southampton,TRUE
+34.0,Victualling,,Belfast,FALSE
+27.0,Victualling,,Belfast,TRUE
+33.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,FALSE
+31.0,Victualling,,Belfast,FALSE
+46.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Belfast,FALSE
+,Victualling,,Southampton,FALSE
+22.0,Victualling,,Southampton,FALSE
+32.0,Victualling,,Southampton,FALSE
+23.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Southampton,FALSE
+17.0,Victualling,,Southampton,FALSE
+43.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Southampton,TRUE
+32.0,Victualling,,Belfast,TRUE
+25.0,Victualling,,Belfast,FALSE
+39.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Belfast,TRUE
+28.0,Victualling,,Southampton,FALSE
+30.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Southampton,FALSE
+35.0,Victualling,,Southampton,FALSE
+48.0,Victualling,,Belfast,FALSE
+32.0,Victualling,,Southampton,FALSE
+34.0,Victualling,,Belfast,FALSE
+38.0,Victualling,,Belfast,FALSE
+36.0,Victualling,,Southampton,TRUE
+36.0,Victualling,,Belfast,FALSE
+35.0,Victualling,,Southampton,FALSE
+14.0,Victualling,,Southampton,FALSE
+24.0,Victualling,,Belfast,FALSE
+50.0,Victualling,,Belfast,FALSE
+51.0,Victualling,,Southampton,TRUE
+23.0,Victualling,,Southampton,FALSE
+29.0,Victualling,,Belfast,TRUE
+29.0,Victualling,,Belfast,TRUE
+37.0,Victualling,,Southampton,FALSE
+27.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Belfast,FALSE
+18.0,Victualling,,Southampton,TRUE
+39.0,Victualling,,Southampton,FALSE
+37.0,Victualling,,Southampton,TRUE
+38.0,Victualling,,Southampton,FALSE
+28.0,Victualling,,Southampton,TRUE
+35.0,Victualling,,Southampton,FALSE
+46.0,Victualling,,Southampton,FALSE
+33.0,Victualling,,Southampton,FALSE
+38.0,Victualling,,Southampton,TRUE
+33.0,Victualling,,Southampton,FALSE
+31.0,Victualling,,Southampton,TRUE
+34.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,FALSE
+44.0,Victualling,,Southampton,FALSE
+36.0,Victualling,,Southampton,FALSE
+19.0,Victualling,,Belfast,FALSE
+24.0,Victualling,,Southampton,FALSE
+40.0,Victualling,,Southampton,TRUE
+38.0,Victualling,,Southampton,TRUE
