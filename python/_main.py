@@ -6,7 +6,7 @@ from sklearn.tree import export_text
  
 dataset = "titanic.csv"
 caminho = os.path.abspath(os.getcwd()) + "\\datasets\\" + dataset
-target = "Survived"
+target = "Titanic"
 cabecalho = gerenciador_dados.get_cabecalho(caminho)
 profundidade = 5
 
