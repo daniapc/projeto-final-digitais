@@ -1,0 +1,20 @@
+
+[Atributos em ordem e seus respectivos campos]
+FIELd_0: Age
+FIELd_1: Faretoday
+FIELd_2: Class/Dept
+FIELd_3: Joined
+
+[Categóricos em ordem e seus respectivos campos]
+FIELd_2: Class/Dept
+>> 0: 1stClass
+>> 1: 2ndClass
+>> 2: 3rdClass
+FIELd_3: Joined
+>> 0: Belfast
+>> 1: Cherbourg
+>> 2: Queenstown
+>> 3: Southampton
+PrEdiCao:
+>> 0: TRUE
+>> 1: FALSE

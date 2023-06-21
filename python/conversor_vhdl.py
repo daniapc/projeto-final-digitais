@@ -98,6 +98,7 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
 
     caminho_comeco = caminho + '\\vhdl\\vhdl_comeco.vhdl'
     caminho_fim = caminho + '\\vhdl\\vhdl_fim.vhdl'
+    caminho_out = caminho + '\\out\\infos.txt'
     caminho = caminho[:caminho.rfind('\\')] + '\\quartus\\atributos.vhdl'
 
     f = open(caminho_comeco, "r")
@@ -114,21 +115,42 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
     f.write(codigo)
     f.close()
 
-    print('\n[Atributos em ordem e seus respectivos campos]')
+    f = open(caminho_out, "w")
+
+    buffer = '\n[Atributos em ordem e seus respectivos campos]'
+    f.write(buffer + '\n')
+    print(buffer)
     for atributo in cabecalho:
-        print('FIELd_' + str(cabecalho.index(atributo)) + ': ' + atributo)
+        buffer = 'FIELd_' + str(cabecalho.index(atributo)) + ': ' + atributo
+        print(buffer)
+        f.write(buffer + '\n')
     
     if (len(categoricos_copy) > 0):
-        print('\n[Categóricos em ordem e seus respectivos campos]')
+        buffer = '\n[Categóricos em ordem e seus respectivos campos]'
+        print(buffer)
+        f.write(buffer + '\n')
         for categorico in categoricos_copy:
-            print('FIELd_' + str(cabecalho.index(categorico)) + ': ' + categorico)
+            buffer = 'FIELd_' + str(cabecalho.index(categorico)) + ': ' + categorico
+            print(buffer)
+            f.write(buffer + '\n')
             i = categoricos_copy.index(categorico)
             for valor in valores_categoricos[i]:
-                print('>> '+ str(valores_categoricos[i].index(valor)) + ': ' + valor)
+                buffer = '>> '+ str(valores_categoricos[i].index(valor)) + ': ' + valor
+                print(buffer)
+                f.write(buffer + '\n')
         
     if (len(valores_y) > 0):
         if (len(categoricos_copy) == 0):
-            print('\n[Categóricos em ordem e seus respectivos campos]')
-        print('PrEdiCao:')
+            buffer = '\n[Categóricos em ordem e seus respectivos campos]'
+            print(buffer)
+            f.write(buffer + '\n')
+
+        buffer = 'PrEdiCao:'
+        print(buffer)
+        f.write(buffer + '\n')
         for valor in valores_y:
-            print('>> '+ str(valores_y.index(valor)) + ': ' + valor)
+            buffer = '>> '+ str(valores_y.index(valor)) + ': ' + valor
+            print(buffer)
+            f.write(buffer + '\n')
+    
+    f.close()

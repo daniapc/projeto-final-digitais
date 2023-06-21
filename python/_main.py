@@ -8,7 +8,7 @@ from sklearn.tree import export_text
 dataset = input("Digite o nome do arquivo de dados (incluindo .csv): ")
 target = input("Digite o nome do target para predições: ")
 
-if dataset == '' and target == '':
+if dataset == '' or target == '':
     dataset = "diabetes.csv"
     target = "Diabetes"
 caminho = os.path.abspath(os.getcwd()) + "\\datasets\\" + dataset
