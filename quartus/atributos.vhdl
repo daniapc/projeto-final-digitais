@@ -109,7 +109,6 @@ architecture arvore_decisao of atributos is
 					out_12, out_13, out_14) is
 		begin
 		
-
 					atributo_0 <= 0 + 1*int(A00) + 2*int(A01) + 4*int(A02) + 8*int(A03) +
 							16*int(A04) + 32*int(A05) + 64*int(A06) + 128*int(A07) +
 							256*int(A08) + 512*int(A09) + 1024*int(A10) + 2048*int(A11) +
@@ -131,38 +130,125 @@ architecture arvore_decisao of atributos is
 							16*int(E04) + 32*int(E05) + 64*int(E06) + 128*int(E07) +
 							256*int(E08) + 512*int(E09) + 1024*int(E10) + 2048*int(E11) +
 							4096*int(E12) + 8192*int(E13) + 16384*int(E14) + 32768*int(E15);
-		
 
-			  if(atributo_1 = 2) then
-			  		if (atributo_2 <= 1050) then
-			  			 if(atributo_3 /= 1) then
-			  				  outcome <= 1312;
-						 else
-			  			     outcome <= 646;
-			  	       end if;
-			  	   else
-						 if(atributo_0 <= 23) then
-							  outcome <= 423;
-						 else
-							  outcome <= 231;
-						 end if;
-					end if;
-			  else
-					if (atributo_3 /= 3) then
-						 if(atributo_0 <= 6) then
-							  outcome <= 64;
-						 else
-							  outcome <= 752;
-						 end if;
-					else
-						 if(atributo_0 <= 5) then
-							  outcome <= 642;
-						 else
-							  outcome <= 3423;
-						 end if;
-					end if;
-			  end if;
-			  
+              if atributo_1 <= 599.00 then
+                 if atributo_1 <= 593.50 then
+                    if atributo_1 <= 559.00 then
+                       if atributo_1 <= 554.50 then
+                          if atributo_1 <= 537.50 then
+                             outcome <= 0;
+                          else
+                             outcome <= 0;
+                          end if;
+                       else
+                          outcome <= 1;
+                       end if;
+                    else
+                       if atributo_1 <= 587.50 then
+                          if atributo_0 <= 24.50 then
+                             outcome <= 0;
+                          else
+                             outcome <= 0;
+                          end if;
+                       else
+                          if atributo_1 <= 590.00 then
+                             outcome <= 3;
+                          else
+                             outcome <= 0;
+                          end if;
+                       end if;
+                    end if;
+                 else
+                    if atributo_0 <= 43.50 then
+                       if atributo_0 <= 18.50 then
+                          if atributo_0 <= 17.50 then
+                             outcome <= 3;
+                          else
+                             outcome <= 0;
+                          end if;
+                       else
+                          if atributo_3 \= 0 then
+                             outcome <= 3;
+                          else
+                             outcome <= 3;
+                          end if;
+                       end if;
+                    else
+                       if atributo_0 <= 58.00 then
+                          if atributo_0 <= 48.00 then
+                             outcome <= 3;
+                          else
+                             outcome <= 0;
+                          end if;
+                       else
+                          outcome <= 3;
+                       end if;
+                    end if;
+                 end if;
+              else
+                 if atributo_2 \= 0 then
+                    if atributo_1 <= 1020.00 then
+                       if atributo_1 <= 608.50 then
+                          if atributo_1 <= 607.00 then
+                             outcome <= 0;
+                          else
+                             outcome <= 3;
+                          end if;
+                       else
+                          if atributo_0 <= 0.60 then
+                             outcome <= 1;
+                          else
+                             outcome <= 0;
+                          end if;
+                       end if;
+                    else
+                       if atributo_1 <= 1225.00 then
+                          if atributo_1 <= 1195.00 then
+                             outcome <= 1;
+                          else
+                             outcome <= 3;
+                          end if;
+                       else
+                          if atributo_0 <= 31.50 then
+                             outcome <= 0;
+                          else
+                             outcome <= 0;
+                          end if;
+                       end if;
+                    end if;
+                 else
+                    if atributo_1 <= 4265.00 then
+                       if atributo_1 <= 3940.00 then
+                          if atributo_1 <= 2085.00 then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       else
+                          if atributo_0 <= 31.50 then
+                             outcome <= 0;
+                          else
+                             outcome <= 0;
+                          end if;
+                       end if;
+                    else
+                       if atributo_1 <= 11500.00 then
+                          if atributo_1 <= 9785.00 then
+                             outcome <= 1;
+                          else
+                             outcome <= 1;
+                          end if;
+                       else
+                          if atributo_1 <= 18100.00 then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       end if;
+                    end if;
+                 end if;
+              end if;
+           
 			  out_00 <= outcome/2;
 			  out_01 <= out_00/2;
 			  out_02 <= out_01/2;
@@ -196,8 +282,6 @@ architecture arvore_decisao of atributos is
 			  O14 <= logic(out_13 mod 2);
 			  O15 <= logic(out_14 mod 2);
 			  
-			  
 		end process;	
 	
-     
 end arvore_decisao;

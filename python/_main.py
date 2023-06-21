@@ -7,7 +7,7 @@ from sklearn.tree import export_text
  
 dataset = "titanic.csv"
 caminho = os.path.abspath(os.getcwd()) + "\\datasets\\" + dataset
-target = "Survived"
+target = "Joined"
 cabecalho = gerenciador_dados.get_cabecalho(caminho)
 profundidade = 5
 
@@ -23,6 +23,6 @@ decision_tree = decision_tree.fit(X, y)
 
 resultado = export_text(decision_tree, feature_names=cabecalho)
 
-print(cabecalho)
+# print(cabecalho)
 
-conversor_vhdl.exportar_vhdl(resultado, cabecalho)
+conversor_vhdl.exportar_vhdl(resultado, cabecalho, y)
