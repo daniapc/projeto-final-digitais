@@ -131,12 +131,58 @@ architecture arvore_decisao of atributos is
 							256*int(E08) + 512*int(E09) + 1024*int(E10) + 2048*int(E11) +
 							4096*int(E12) + 8192*int(E13) + 16384*int(E14) + 32768*int(E15);
 
-              if atributo_1 <= 599.00 then
-                 if atributo_1 <= 593.50 then
-                    if atributo_1 <= 559.00 then
-                       if atributo_1 <= 554.50 then
-                          if atributo_1 <= 537.50 then
+              if (atributo_0 <= 127) then
+                 if (atributo_4 <= 28) then
+                    if (atributo_3 <= 45) then
+                       if (atributo_3 <= 30) then
+                          if (atributo_1 <= 85) then
+                             outcome <= 1;
+                          else
+                             outcome <= 1;
+                          end if;
+                       else
+                          if (atributo_1 <= 22) then
                              outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       end if;
+                    else
+                       if (atributo_2 <= 180) then
+                          outcome <= 0;
+                       else
+                          outcome <= 1;
+                       end if;
+                    end if;
+                 else
+                    if (atributo_3 <= 26) then
+                       if (atributo_3 <= 9) then
+                          outcome <= 0;
+                       else
+                          outcome <= 1;
+                       end if;
+                    else
+                       if (atributo_0 <= 99) then
+                          if (atributo_0 <= 28) then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       else
+                          if (atributo_1 <= 85) then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       end if;
+                    end if;
+                 end if;
+              else
+                 if (atributo_3 <= 29) then
+                    if (atributo_0 <= 145) then
+                       if (atributo_2 <= 132) then
+                          if (atributo_3 <= 28) then
+                             outcome <= 1;
                           else
                              outcome <= 0;
                           end if;
@@ -144,102 +190,40 @@ architecture arvore_decisao of atributos is
                           outcome <= 1;
                        end if;
                     else
-                       if atributo_1 <= 587.50 then
-                          if atributo_0 <= 24.50 then
-                             outcome <= 0;
-                          else
-                             outcome <= 0;
-                          end if;
+                       if (atributo_4 <= 25) then
+                          outcome <= 1;
                        else
-                          if atributo_1 <= 590.00 then
-                             outcome <= 3;
-                          else
+                          if (atributo_4 <= 61) then
                              outcome <= 0;
+                          else
+                             outcome <= 1;
                           end if;
                        end if;
                     end if;
                  else
-                    if atributo_0 <= 43.50 then
-                       if atributo_0 <= 18.50 then
-                          if atributo_0 <= 17.50 then
-                             outcome <= 3;
-                          else
-                             outcome <= 0;
-                          end if;
-                       else
-                          if atributo_3 \= 0 then
-                             outcome <= 3;
-                          else
-                             outcome <= 3;
-                          end if;
-                       end if;
-                    else
-                       if atributo_0 <= 58.00 then
-                          if atributo_0 <= 48.00 then
-                             outcome <= 3;
-                          else
-                             outcome <= 0;
-                          end if;
-                       else
-                          outcome <= 3;
-                       end if;
-                    end if;
-                 end if;
-              else
-                 if atributo_2 \= 0 then
-                    if atributo_1 <= 1020.00 then
-                       if atributo_1 <= 608.50 then
-                          if atributo_1 <= 607.00 then
-                             outcome <= 0;
-                          else
-                             outcome <= 3;
-                          end if;
-                       else
-                          if atributo_0 <= 0.60 then
-                             outcome <= 1;
-                          else
-                             outcome <= 0;
-                          end if;
-                       end if;
-                    else
-                       if atributo_1 <= 1225.00 then
-                          if atributo_1 <= 1195.00 then
-                             outcome <= 1;
-                          else
-                             outcome <= 3;
-                          end if;
-                       else
-                          if atributo_0 <= 31.50 then
-                             outcome <= 0;
-                          else
-                             outcome <= 0;
-                          end if;
-                       end if;
-                    end if;
-                 else
-                    if atributo_1 <= 4265.00 then
-                       if atributo_1 <= 3940.00 then
-                          if atributo_1 <= 2085.00 then
+                    if (atributo_0 <= 157) then
+                       if (atributo_4 <= 30) then
+                          if (atributo_1 <= 61) then
                              outcome <= 0;
                           else
                              outcome <= 1;
                           end if;
                        else
-                          if atributo_0 <= 31.50 then
+                          if (atributo_4 <= 33) then
                              outcome <= 0;
                           else
                              outcome <= 0;
                           end if;
                        end if;
                     else
-                       if atributo_1 <= 11500.00 then
-                          if atributo_1 <= 9785.00 then
-                             outcome <= 1;
+                       if (atributo_2 <= 629) then
+                          if (atributo_4 <= 44) then
+                             outcome <= 0;
                           else
-                             outcome <= 1;
+                             outcome <= 0;
                           end if;
                        else
-                          if atributo_1 <= 18100.00 then
+                          if (atributo_3 <= 33) then
                              outcome <= 0;
                           else
                              outcome <= 1;

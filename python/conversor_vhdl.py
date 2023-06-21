@@ -28,8 +28,6 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
                     break
             result_array_endif[current_index] = line[0:identation] + 'if ' + line[identation:] + ' then'
 
-    print(*result_array_endif, sep='\n')
-
     for atributo in cabecalho:
         cabecalho[cabecalho.index(atributo)] = atributo.replace(' ', '')
 
@@ -44,7 +42,7 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
             categoricos[i] = categoricos[i].split('_')[0]
     categoricos = list(dict.fromkeys(categoricos))
 
-    print(categoricos)
+    categoricos_copy = categoricos.copy()
 
     valores_categoricos = [[]]
     for atributo in cabecalho:
@@ -61,16 +59,14 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
         cabecalho.remove(atributo)
 
     cabecalho = cabecalho + categoricos
-    print(cabecalho)
 
-    print(valores_categoricos)
+    valores_y = []
 
     if (isinstance(valores_pred[0], str)):
         valores_y = list(dict.fromkeys(valores_pred))
         for valores in valores_y:
             if isinstance(valores,str):
                 valores_y[valores_y.index(valores)] = valores.replace(' ', '')
-        print(valores_y)
 
     for line in result_array_endif:
         if('<=' in line):
@@ -82,11 +78,11 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
                 index_campo = categoricos.index(campo)
                 index_valor = (valores_categoricos[index_campo]).index(valor)
                 result_array_endif[result_array_endif.index(line)] = line.replace(condicao, 
-                    'atributo_' + str(cabecalho.index(campo)) + ' \= ' + str(index_valor))
+                    '(not(atributo_' + str(cabecalho.index(campo)) + ' = ' + str(index_valor)+ '))')
             else:
                 valor = condicao[condicao.find('=') + 1:]
                 result_array_endif[result_array_endif.index(line)] = line.replace(condicao, 
-                    'atributo_' + str(cabecalho.index(info)) + ' <= ' + valor)
+                    '(atributo_' + str(cabecalho.index(info)) + ' <= ' + str(int(float(valor))) + ')')
         elif ('class:' in line):
             predicao = line.replace('|','')
             valor = predicao.split(':')[1].replace(' ', '')
@@ -97,8 +93,6 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
         
     for line in result_array_endif:
         result_array_endif[result_array_endif.index(line)] = '           ' + line.replace('|', '   ')
-
-    print(*result_array_endif, sep='\n')
 
     caminho = os.path.abspath(os.getcwd())
 
@@ -116,8 +110,25 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
 
     codigo = comeco + '\n'.join(result_array_endif) + fim
 
-    print(codigo)
-
     f = open(caminho, "w")
     f.write(codigo)
     f.close()
+
+    print('\n[Atributos em ordem e seus respectivos campos]')
+    for atributo in cabecalho:
+        print('FIELd_' + str(cabecalho.index(atributo)) + ': ' + atributo)
+    
+    if (len(categoricos_copy) > 0):
+        print('\n[Categóricos em ordem e seus respectivos campos]')
+        for categorico in categoricos_copy:
+            print('FIELd_' + str(cabecalho.index(categorico)) + ': ' + categorico)
+            i = categoricos_copy.index(categorico)
+            for valor in valores_categoricos[i]:
+                print('>> '+ str(valores_categoricos[i].index(valor)) + ': ' + valor)
+        
+    if (len(valores_y) > 0):
+        if (len(categoricos_copy) == 0):
+            print('\n[Categóricos em ordem e seus respectivos campos]')
+        print('PrEdiCao:')
+        for valor in valores_y:
+            print('>> '+ str(valores_y.index(valor)) + ': ' + valor)
