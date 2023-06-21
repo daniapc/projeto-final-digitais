@@ -65,7 +65,11 @@ architecture arq_conversor_bin_dec of conversor_bin_dec is
 							256*int(O08) + 512*int(O09) + 1024*int(O10) + 2048*int(O11) +
 							4096*int(O12) + 8192*int(O13) + 16384*int(O14) + 32768*int(O15);
 			  
-		process (binario) is
+		process (binario, dig_0, dig_1, dig_2, dig_3,
+		         out_00, out_01, out_02, out_03, 
+					out_04, out_05, out_06, out_07, 
+					out_08, out_09, out_10, out_11,
+					out_12, out_13, out_14) is
 		begin
 			  
 			  dig_0 <= binario/10;
@@ -98,17 +102,17 @@ architecture arq_conversor_bin_dec of conversor_bin_dec is
 			  B02 <= logic(out_04 mod 2);
 			  B03 <= logic(out_05 mod 2);
 			  C00 <= logic((dig_1 mod 10) mod 2);
-			  C01 <= logic(out_06);
-			  C02 <= logic(out_07);
-			  C03 <= logic(out_08);
+			  C01 <= logic(out_06 mod 2);
+			  C02 <= logic(out_07 mod 2);
+			  C03 <= logic(out_08 mod 2);
 			  D00 <= logic((dig_2 mod 10) mod 2);
-			  D01 <= logic(out_09);
-			  D02 <= logic(out_10);
-			  D03 <= logic(out_11);
+			  D01 <= logic(out_09 mod 2);
+			  D02 <= logic(out_10 mod 2);
+			  D03 <= logic(out_11 mod 2);
 			  E00 <= logic((dig_3 mod 10) mod 2);
-			  E01 <= logic(out_12);
-			  E02 <= logic(out_13);
-			  E03 <= logic(out_14);
+			  E01 <= logic(out_12 mod 2);
+			  E02 <= logic(out_13 mod 2);
+			  E03 <= logic(out_14 mod 2);
 			  
 			  
 		end process;	

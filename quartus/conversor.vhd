@@ -63,7 +63,10 @@ architecture arq_conversor of conversor is
 							 (1*int(D00) + 2*int(D01) + 4*int(D02) + 8*int(D03))*1000 +
 							 (1*int(E00) + 2*int(E01) + 4*int(E02) + 8*int(E03))*10000;
 			  
-		process (decimal) is
+		process (decimal, out_00, out_01, out_02, out_03, 
+					out_04, out_05, out_06, out_07, 
+					out_08, out_09, out_10, out_11,
+					out_12, out_13, out_14) is
 		begin
 			  
 			  out_00 <= decimal/2;

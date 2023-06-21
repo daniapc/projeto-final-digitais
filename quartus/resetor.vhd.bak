@@ -26,7 +26,7 @@ architecture arq_estados_pb0 of estados_pb0 is
 	 begin	 
 			  estado <= int(est_0) + 2*int(est_1) + 4*int(est_2) + 8*int(est_3);
 			  
-		process (pb0, estado) is
+		process (pb0) is
 		begin
 			  
 			if estado = 1 then

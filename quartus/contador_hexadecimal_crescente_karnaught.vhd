@@ -14,7 +14,9 @@ end contador_karnaught;
 architecture arc_d_ports of contador_karnaught is
 begin
 	-- D3
-	D3 <= (X2 and X1 and X0) or
+	D3 <= (X3 and not(X1)) or
+			(X3 and not(X2)) or
+			(not(X3) and X2 and X1 and X0) or
 			(X3 and not(X0));
 	
 	-- D2
@@ -23,7 +25,7 @@ begin
 			(not(X2) and X1 and X0);
 	-- D1
 	D1 <= (X1 and not(X0)) or
-			(not(X3) and not(X1) and X0);
+			(not(X1) and X0);
 	-- D0
 	D0 <= (not(X0));
 	

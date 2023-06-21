@@ -90,57 +90,57 @@ architecture arq_estados_display of estados_display is
         O10, O11, O12, O13,
         O20, O21, O22, O23,
         O30, O31, O32, O33,
-        O40, O41, O42, O43) is
+        O40, O41, O42, O43, estado) is
 		begin
 			  
 			if estado = 0 then
 				-- F
-				Sa0 <= '0';
-				Sb0 <= '1';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- I
-				Sa1 <= '1';
-				Sb1 <= '1';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
+				Sa4 <= '1';
+				Sb4 <= '1';
+				Sc4 <= '1';
+				Sd4 <= '1';
+				Se4 <= '0';
+				Sf4 <= '0';
+				Sg4 <= '1';
 				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- L
-				Sa3 <= '1';
+				Sa3 <= '0';
 				Sb3 <= '1';
 				Sc3 <= '1';
 				Sd3 <= '0';
 				Se3 <= '0';
 				Sf3 <= '0';
-				Sg3 <= '1';
+				Sg3 <= '0';
+				-- L
+				Sa2 <= '1';
+				Sb2 <= '1';
+				Sc2 <= '1';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '0';
+				Sg2 <= '1';
 				-- d
-				Sa4 <= '1';
-				Sb4 <= '0';
-				Sc4 <= '0';
-				Sd4 <= '0';
-				Se4 <= '0';
-				Sf4 <= '1';
-				Sg4 <= '0';
+				Sa1 <= '1';
+				Sb1 <= '0';
+				Sc1 <= '0';
+				Sd1 <= '0';
+				Se1 <= '0';
+				Sf1 <= '1';
+				Sg1 <= '0';
 				-- 0
-				Sa5 <= '0';
-				Sb5 <= '0';
-				Sc5 <= '0';
-				Sd5 <= '0';
-				Se5 <= '0';
-				Sf5 <= '0';
+				Sa0 <= '0';
+				Sb0 <= '0';
+				Sc0 <= '0';
+				Sd0 <= '0';
+				Se0 <= '0';
+				Sf0 <= '0';
 				Sg5 <= '1';
 			elsif estado = 1 then
 				-- HEX0
@@ -183,55 +183,63 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(A43) and (A42) and not(A41)) or (not(A42) and not(A41) and (A40)) or (not(A43) and (A40));
 				Sf4 <= ((A43) and (A42) and not(A41) and (A40)) or (not(A43) and not(A42) and (A40)) or (not(A43) and not(A42) and (A41)) or (not(A43) and (A41) and (A40));
 				Sg4 <= ((A43) and (A42) and not(A41) and not(A40)) or (not(A43) and (A42) and (A41) and (A40)) or (not(A43) and not(A42) and not(A41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			elsif estado = 2 then
 				-- F
-				Sa0 <= '0';
-				Sb0 <= '1';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- I
-				Sa1 <= '1';
-				Sb1 <= '1';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
+				Sa4 <= '1';
+				Sb4 <= '1';
+				Sc4 <= '1';
+				Sd4 <= '1';
+				Se4 <= '0';
+				Sf4 <= '0';
+				Sg4 <= '1';
 				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- L
-				Sa3 <= '1';
+				Sa3 <= '0';
 				Sb3 <= '1';
 				Sc3 <= '1';
 				Sd3 <= '0';
 				Se3 <= '0';
 				Sf3 <= '0';
-				Sg3 <= '1';
+				Sg3 <= '0';
+				-- L
+				Sa2 <= '1';
+				Sb2 <= '1';
+				Sc2 <= '1';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '0';
+				Sg2 <= '1';
 				-- d
-				Sa4 <= '1';
-				Sb4 <= '0';
-				Sc4 <= '0';
-				Sd4 <= '0';
-				Se4 <= '0';
-				Sf4 <= '1';
-				Sg4 <= '0';
+				Sa1 <= '1';
+				Sb1 <= '0';
+				Sc1 <= '0';
+				Sd1 <= '0';
+				Se1 <= '0';
+				Sf1 <= '1';
+				Sg1 <= '0';
 				-- 1
-				Sa5 <= '0';
-				Sb5 <= '0';
-				Sc5 <= '1';
-				Sd5 <= '1';
-				Se5 <= '1';
-				Sf5 <= '1';
-				Sg5 <= '1';
+				Sa0 <= '1';
+				Sb0 <= '0';
+				Sc0 <= '0';
+				Sd0 <= '1';
+				Se0 <= '1';
+				Sf0 <= '1';
+				Sg0 <= '1';
 			elsif estado = 3 then
 				-- HEX0
 				Sa0 <= (not(B03) and (B02) and not(B01) and not(B00)) or	(not(B03) and not(B02) and not(B01) and (B00)) or ((B03) and (B02) and not(B01) and (B00)) or ((B03) and not(B02) and (B01) and (B00));
@@ -273,55 +281,63 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(B43) and (B42) and not(B41)) or (not(B42) and not(B41) and (B40)) or (not(B43) and (B40));
 				Sf4 <= ((B43) and (B42) and not(B41) and (B40)) or (not(B43) and not(B42) and (B40)) or (not(B43) and not(B42) and (B41)) or (not(B43) and (B41) and (B40));
 				Sg4 <= ((B43) and (B42) and not(B41) and not(B40)) or (not(B43) and (B42) and (B41) and (B40)) or (not(B43) and not(B42) and not(B41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			elsif estado = 4 then
 				-- F
-				Sa0 <= '0';
-				Sb0 <= '1';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- I
-				Sa1 <= '1';
-				Sb1 <= '1';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
+				Sa4 <= '1';
+				Sb4 <= '1';
+				Sc4 <= '1';
+				Sd4 <= '1';
+				Se4 <= '0';
+				Sf4 <= '0';
+				Sg4 <= '1';
 				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- L
-				Sa3 <= '1';
+				Sa3 <= '0';
 				Sb3 <= '1';
 				Sc3 <= '1';
 				Sd3 <= '0';
 				Se3 <= '0';
 				Sf3 <= '0';
-				Sg3 <= '1';
+				Sg3 <= '0';
+				-- L
+				Sa2 <= '1';
+				Sb2 <= '1';
+				Sc2 <= '1';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '0';
+				Sg2 <= '1';
 				-- d
-				Sa4 <= '1';
-				Sb4 <= '0';
-				Sc4 <= '0';
-				Sd4 <= '0';
-				Se4 <= '0';
-				Sf4 <= '1';
-				Sg4 <= '0';
+				Sa1 <= '1';
+				Sb1 <= '0';
+				Sc1 <= '0';
+				Sd1 <= '0';
+				Se1 <= '0';
+				Sf1 <= '1';
+				Sg1 <= '0';
 				-- 2
-				Sa5 <= '0';
-				Sb5 <= '1';
-				Sc5 <= '0';
-				Sd5 <= '0';
-				Se5 <= '1';
-				Sf5 <= '0';
-				Sg5 <= '0';
+				Sa0 <= '0';
+				Sb0 <= '0';
+				Sc0 <= '1';
+				Sd0 <= '0';
+				Se0 <= '0';
+				Sf0 <= '1';
+				Sg0 <= '0';
 			elsif estado = 5 then
 				-- HEX0
 				Sa0 <= (not(C03) and (C02) and not(C01) and not(C00)) or	(not(C03) and not(C02) and not(C01) and (C00)) or ((C03) and (C02) and not(C01) and (C00)) or ((C03) and not(C02) and (C01) and (C00));
@@ -363,55 +379,63 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(C43) and (C42) and not(C41)) or (not(C42) and not(C41) and (C40)) or (not(C43) and (C40));
 				Sf4 <= ((C43) and (C42) and not(C41) and (C40)) or (not(C43) and not(C42) and (C40)) or (not(C43) and not(C42) and (C41)) or (not(C43) and (C41) and (C40));
 				Sg4 <= ((C43) and (C42) and not(C41) and not(C40)) or (not(C43) and (C42) and (C41) and (C40)) or (not(C43) and not(C42) and not(C41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			elsif estado = 6 then
 				-- F
-				Sa0 <= '0';
-				Sb0 <= '1';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- I
-				Sa1 <= '1';
-				Sb1 <= '1';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
+				Sa4 <= '1';
+				Sb4 <= '1';
+				Sc4 <= '1';
+				Sd4 <= '1';
+				Se4 <= '0';
+				Sf4 <= '0';
+				Sg4 <= '1';
 				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- L
-				Sa3 <= '1';
+				Sa3 <= '0';
 				Sb3 <= '1';
 				Sc3 <= '1';
 				Sd3 <= '0';
 				Se3 <= '0';
 				Sf3 <= '0';
-				Sg3 <= '1';
+				Sg3 <= '0';
+				-- L
+				Sa2 <= '1';
+				Sb2 <= '1';
+				Sc2 <= '1';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '0';
+				Sg2 <= '1';
 				-- d
-				Sa4 <= '1';
-				Sb4 <= '0';
-				Sc4 <= '0';
-				Sd4 <= '0';
-				Se4 <= '0';
-				Sf4 <= '1';
-				Sg4 <= '0';
+				Sa1 <= '1';
+				Sb1 <= '0';
+				Sc1 <= '0';
+				Sd1 <= '0';
+				Se1 <= '0';
+				Sf1 <= '1';
+				Sg1 <= '0';
 				-- 3
-				Sa5 <= '0';
-				Sb5 <= '0';
-				Sc5 <= '0';
-				Sd5 <= '0';
-				Se5 <= '1';
-				Sf5 <= '1';
-				Sg5 <= '0';
+				Sa0 <= '0';
+				Sb0 <= '0';
+				Sc0 <= '0';
+				Sd0 <= '0';
+				Se0 <= '1';
+				Sf0 <= '1';
+				Sg0 <= '0';
 			elsif estado = 7 then
 				-- HEX0
 				Sa0 <= (not(D03) and (D02) and not(D01) and not(D00)) or	(not(D03) and not(D02) and not(D01) and (D00)) or ((D03) and (D02) and not(D01) and (D00)) or ((D03) and not(D02) and (D01) and (D00));
@@ -453,55 +477,63 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(D43) and (D42) and not(D41)) or (not(D42) and not(D41) and (D40)) or (not(D43) and (D40));
 				Sf4 <= ((D43) and (D42) and not(D41) and (D40)) or (not(D43) and not(D42) and (D40)) or (not(D43) and not(D42) and (D41)) or (not(D43) and (D41) and (D40));
 				Sg4 <= ((D43) and (D42) and not(D41) and not(D40)) or (not(D43) and (D42) and (D41) and (D40)) or (not(D43) and not(D42) and not(D41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			elsif estado = 8 then
 				-- F
-				Sa0 <= '0';
-				Sb0 <= '1';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- I
-				Sa1 <= '1';
-				Sb1 <= '1';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
+				Sa4 <= '1';
+				Sb4 <= '1';
+				Sc4 <= '1';
+				Sd4 <= '1';
+				Se4 <= '0';
+				Sf4 <= '0';
+				Sg4 <= '1';
 				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- L
-				Sa3 <= '1';
+				Sa3 <= '0';
 				Sb3 <= '1';
 				Sc3 <= '1';
 				Sd3 <= '0';
 				Se3 <= '0';
 				Sf3 <= '0';
-				Sg3 <= '1';
+				Sg3 <= '0';
+				-- L
+				Sa2 <= '1';
+				Sb2 <= '1';
+				Sc2 <= '1';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '0';
+				Sg2 <= '1';
 				-- d
-				Sa4 <= '1';
-				Sb4 <= '0';
-				Sc4 <= '0';
-				Sd4 <= '0';
-				Se4 <= '0';
-				Sf4 <= '1';
-				Sg4 <= '0';
+				Sa1 <= '1';
+				Sb1 <= '0';
+				Sc1 <= '0';
+				Sd1 <= '0';
+				Se1 <= '0';
+				Sf1 <= '1';
+				Sg1 <= '0';
 				-- 4
-				Sa5 <= '1';
-				Sb5 <= '0';
-				Sc5 <= '0';
-				Sd5 <= '1';
-				Se5 <= '1';
-				Sf5 <= '0';
-				Sg5 <= '0';
+				Sa0 <= '1';
+				Sb0 <= '0';
+				Sc0 <= '0';
+				Sd0 <= '1';
+				Se0 <= '1';
+				Sf0 <= '0';
+				Sg0 <= '0';
 			elsif estado = 9 then
 				-- HEX0
 				Sa0 <= (not(E03) and (E02) and not(E01) and not(E00)) or	(not(E03) and not(E02) and not(E01) and (E00)) or ((E03) and (E02) and not(E01) and (E00)) or ((E03) and not(E02) and (E01) and (E00));
@@ -543,55 +575,63 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(E43) and (E42) and not(E41)) or (not(E42) and not(E41) and (E40)) or (not(E43) and (E40));
 				Sf4 <= ((E43) and (E42) and not(E41) and (E40)) or (not(E43) and not(E42) and (E40)) or (not(E43) and not(E42) and (E41)) or (not(E43) and (E41) and (E40));
 				Sg4 <= ((E43) and (E42) and not(E41) and not(E40)) or (not(E43) and (E42) and (E41) and (E40)) or (not(E43) and not(E42) and not(E41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			elsif estado = 10 then
 				-- P
-				Sa0 <= '0';
-				Sb0 <= '0';
-				Sc0 <= '1';
-				Sd0 <= '1';
-				Se0 <= '0';
-				Sf0 <= '0';
-				Sg0 <= '0';
+				Sa5 <= '0';
+				Sb5 <= '0';
+				Sc5 <= '1';
+				Sd5 <= '1';
+				Se5 <= '0';
+				Sf5 <= '0';
+				Sg5 <= '0';
 				-- r
-				Sa1 <= '0';
-				Sb1 <= '0';
-				Sc1 <= '1';
-				Sd1 <= '1';
-				Se1 <= '0';
-				Sf1 <= '0';
-				Sg1 <= '1';
-				-- E
-				Sa2 <= '1';
-				Sb2 <= '1';
-				Sc2 <= '0';
-				Sd2 <= '0';
-				Se2 <= '0';
-				Sf2 <= '0';
-				Sg2 <= '0';
-				-- d
-				Sa3 <= '1';
-				Sb3 <= '0';
-				Sc3 <= '0';
-				Sd3 <= '0';
-				Se3 <= '0';
-				Sf3 <= '1';
-				Sg3 <= '0';
-				-- I
-				Sa4 <= '1';
-				Sb4 <= '1';
+				Sa4 <= '0';
+				Sb4 <= '0';
 				Sc4 <= '1';
 				Sd4 <= '1';
 				Se4 <= '0';
 				Sf4 <= '0';
 				Sg4 <= '1';
+				-- E
+				Sa3 <= '0';
+				Sb3 <= '1';
+				Sc3 <= '1';
+				Sd3 <= '0';
+				Se3 <= '0';
+				Sf3 <= '0';
+				Sg3 <= '0';
+				-- d
+				Sa2 <= '1';
+				Sb2 <= '0';
+				Sc2 <= '0';
+				Sd2 <= '0';
+				Se2 <= '0';
+				Sf2 <= '1';
+				Sg2 <= '0';
+				-- I
+				Sa1 <= '1';
+				Sb1 <= '1';
+				Sc1 <= '1';
+				Sd1 <= '1';
+				Se1 <= '0';
+				Sf1 <= '0';
+				Sg1 <= '1';
 				-- C
-				Sa5 <= '0';
-				Sb5 <= '1';
-				Sc5 <= '1';
-				Sd5 <= '0';
-				Se5 <= '0';
-				Sf5 <= '0';
-				Sg5 <= '1';
+				Sa0 <= '0';
+				Sb0 <= '1';
+				Sc0 <= '1';
+				Sd0 <= '0';
+				Se0 <= '0';
+				Sf0 <= '0';
+				Sg0 <= '1';
 			elsif estado = 11 then
 				-- HEX0
 				Sa0 <= (not(O03) and (O02) and not(O01) and not(O00)) or	(not(O03) and not(O02) and not(O01) and (O00)) or ((O03) and (O02) and not(O01) and (O00)) or ((O03) and not(O02) and (O01) and (O00));
@@ -633,6 +673,14 @@ architecture arq_estados_display of estados_display is
 				Se4 <= (not(O43) and (O42) and not(O41)) or (not(O42) and not(O41) and (O40)) or (not(O43) and (O40));
 				Sf4 <= ((O43) and (O42) and not(O41) and (O40)) or (not(O43) and not(O42) and (O40)) or (not(O43) and not(O42) and (O41)) or (not(O43) and (O41) and (O40));
 				Sg4 <= ((O43) and (O42) and not(O41) and not(O40)) or (not(O43) and (O42) and (O41) and (O40)) or (not(O43) and not(O42) and not(O41));
+				-- HEX5
+				Sa5 <= '1';
+				Sb5 <= '1';
+				Sc5 <= '1';
+				Sd5 <= '0';
+				Se5 <= '1';
+				Sf5 <= '1';
+				Sg5 <= '1';
 			end if;
 
 		end process;	
