@@ -3,7 +3,7 @@ from sklearn.preprocessing import OneHotEncoder
 def get_cabecalho(caminho):
     with open(caminho, 'r') as f:
         line = f.readline()
-        line = line.rstrip('\n')
+        line = line.rstrip('\n').replace(' ', '-')
         atributos = line.split(',')
         for i in range(len(atributos)):
             atributos[i] = atributos[i].strip('"')
@@ -18,7 +18,7 @@ def separar_dados(caminho, target, cabecalho):
     with open(caminho, 'r') as f:
         f.readline()
         for line in f:
-            line = line.rstrip('\n')
+            line = line.rstrip('\n').replace(' ', '-')
             atributos = line.split(',')
             valores = []
             if ('' not in atributos):
@@ -102,6 +102,8 @@ def filtrar_atributos(dados, cabecalho, profundidade):
         for i in range(tam):
             if not(isinstance(linha[i],str)):
                 media[i] += linha[i]/20
+            else:
+                media[i] = i*0.01
     
     indices = {}
     for valor in media:

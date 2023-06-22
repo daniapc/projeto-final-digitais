@@ -1,8 +1,9 @@
 import os
+import platform
 
 def exportar_vhdl(resultado, cabecalho, valores_pred):
 
-    result_array = resultado.replace(' ','').replace('-','').split('\n')
+    result_array = resultado.replace(' ','').replace('---','').split('\n')
 
     for line in result_array:
         if ('<=' in line):
@@ -95,11 +96,12 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
         result_array_endif[result_array_endif.index(line)] = '           ' + line.replace('|', '   ')
 
     caminho = os.path.abspath(os.getcwd())
+    slash = '\\' if platform.system() == 'Windows' else '/'
 
-    caminho_comeco = caminho + '\\vhdl\\vhdl_comeco.vhdl'
-    caminho_fim = caminho + '\\vhdl\\vhdl_fim.vhdl'
-    caminho_out = caminho + '\\out\\infos.txt'
-    caminho = caminho[:caminho.rfind('\\')] + '\\quartus\\atributos.vhdl'
+    caminho_comeco = caminho + slash + 'vhdl' + slash + 'vhdl_comeco.vhdl'
+    caminho_fim = caminho + slash +'vhdl' + slash + 'vhdl_fim.vhdl'
+    caminho_out = caminho + slash +'out' + slash + 'infos.txt'
+    caminho = caminho[:caminho.rfind(slash)] + slash + 'quartus' + slash + 'atributos.vhdl'
 
     f = open(caminho_comeco, "r")
     comeco = f.read()

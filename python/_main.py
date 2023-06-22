@@ -1,26 +1,33 @@
 import os
 import gerenciador_dados
 import conversor_vhdl
+import platform
 
 from sklearn import tree
 from sklearn.tree import export_text
 
 dataset = input("Digite o nome do arquivo de dados (incluindo .csv): ")
-target = input("Digite o nome do target para predições: ")
+target = input("Digite o nome do target para predições: ").replace(' ', '-')
 
 if dataset == '' or target == '':
     dataset = "diabetes.csv"
     target = "Diabetes"
-caminho = os.path.abspath(os.getcwd()) + "\\datasets\\" + dataset
-cabecalho = gerenciador_dados.get_cabecalho(caminho)
-profundidade = 5
 
-X, y = gerenciador_dados.separar_dados(caminho, target, cabecalho)
+slash = '\\' if platform.system() == 'Windows' else '/'
+caminho = os.path.abspath(os.getcwd()) + slash + "datasets" + slash + dataset
 
-if len(cabecalho) > profundidade:
-    X, cabecalho = gerenciador_dados.filtrar_atributos(X, cabecalho, profundidade)
+try: 
+    cabecalho = gerenciador_dados.get_cabecalho(caminho)
+    profundidade = 5
 
-X, cabecalho = gerenciador_dados.gerenciar_categoricos(X, cabecalho)
+    X, y = gerenciador_dados.separar_dados(caminho, target, cabecalho)
+
+    if len(cabecalho) > profundidade:
+        X, cabecalho = gerenciador_dados.filtrar_atributos(X, cabecalho, profundidade)
+
+    X, cabecalho = gerenciador_dados.gerenciar_categoricos(X, cabecalho)
+except:
+    print("\nErro ao carregar ou gerenciar os dados de entrada.\n")
 
 try:
     decision_tree = tree.DecisionTreeClassifier(max_depth=profundidade)
