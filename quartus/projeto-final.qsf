@@ -59,7 +59,6 @@ set_global_assignment -name VHDL_FILE estados_display.vhd
 set_global_assignment -name VHDL_FILE display_7_seg.vhd
 set_global_assignment -name VHDL_FILE atributos.vhdl
 set_global_assignment -name BDF_FILE "projeto-final.bdf"
-set_global_assignment -name BDF_FILE teste_atributos.bdf
 set_global_assignment -name BDF_FILE deslocador_4_bits.bdf
 set_global_assignment -name VHDL_FILE conversor.vhd
 set_global_assignment -name BDF_FILE seletor_atributo.bdf
