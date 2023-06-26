@@ -131,82 +131,102 @@ architecture arvore_decisao of atributos is
 							256*int(E08) + 512*int(E09) + 1024*int(E10) + 2048*int(E11) +
 							4096*int(E12) + 8192*int(E13) + 16384*int(E14) + 32768*int(E15);
 
-              if (atributo_1 <= 15) then
-                 if (atributo_1 <= 12) then
-                    if (not(atributo_2 = 4)) then
-                       if (atributo_1 <= 11) then
-                          outcome <= 120.0;
+              if (atributo_0 <= 127) then
+                 if (atributo_4 <= 28) then
+                    if (atributo_3 <= 45) then
+                       if (atributo_3 <= 30) then
+                          if (atributo_1 <= 85) then
+                             outcome <= 1;
+                          else
+                             outcome <= 1;
+                          end if;
                        else
-                          outcome <= 133.0;
+                          if (atributo_1 <= 22) then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
                        end if;
                     else
-                       outcome <= 177.0;
+                       if (atributo_4 <= 22) then
+                          outcome <= 1;
+                       else
+                          outcome <= 0;
+                       end if;
                     end if;
                  else
-                    if (not(atributo_2 = 2)) then
-                       outcome <= 159.0;
+                    if (atributo_3 <= 26) then
+                       if (atributo_3 <= 9) then
+                          outcome <= 0;
+                       else
+                          outcome <= 1;
+                       end if;
                     else
-                       outcome <= 142.0;
+                       if (atributo_0 <= 99) then
+                          if (atributo_0 <= 28) then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       else
+                          if (atributo_1 <= 85) then
+                             outcome <= 0;
+                          else
+                             outcome <= 1;
+                          end if;
+                       end if;
                     end if;
                  end if;
               else
-                 if (atributo_0 <= 89) then
-                    if (atributo_1 <= 21) then
-                       if (not(atributo_3 = 1)) then
-                          if (not(atributo_3 = 5)) then
-                             outcome <= 64.0;
+                 if (atributo_3 <= 29) then
+                    if (atributo_0 <= 145) then
+                       if (atributo_2 <= 132) then
+                          if (atributo_3 <= 28) then
+                             outcome <= 1;
                           else
-                             outcome <= 77.0;
+                             outcome <= 0;
                           end if;
                        else
-                          if (atributo_1 <= 18) then
-                             outcome <= 73.0;
-                          else
-                             outcome <= 66.0;
-                          end if;
+                          outcome <= 1;
                        end if;
                     else
-                       if (not(atributo_3 = 7)) then
-                          if (not(atributo_3 = 8)) then
-                             outcome <= 36.0;
-                          else
-                             outcome <= 24.0;
-                          end if;
+                       if (atributo_4 <= 25) then
+                          outcome <= 1;
                        else
-                          if (not(atributo_2 = 2)) then
-                             outcome <= 49.0;
+                          if (atributo_4 <= 61) then
+                             outcome <= 0;
                           else
-                             outcome <= 73.0;
+                             outcome <= 1;
                           end if;
                        end if;
                     end if;
                  else
-                    if (not(atributo_2 = 1)) then
-                       if (not(atributo_3 = 6)) then
-                          if (not(atributo_2 = 0)) then
-                             outcome <= 83.0;
+                    if (atributo_0 <= 157) then
+                       if (atributo_4 <= 30) then
+                          if (atributo_1 <= 61) then
+                             outcome <= 0;
                           else
-                             outcome <= 63.0;
+                             outcome <= 1;
                           end if;
                        else
-                          if (atributo_1 <= 25) then
-                             outcome <= 60.0;
+                          if (atributo_4 <= 33) then
+                             outcome <= 0;
                           else
-                             outcome <= 59.0;
+                             outcome <= 0;
                           end if;
                        end if;
                     else
-                       if (not(atributo_3 = 1)) then
-                          if (atributo_1 <= 22) then
-                             outcome <= 60.0;
+                       if (atributo_2 <= 629) then
+                          if (atributo_4 <= 44) then
+                             outcome <= 0;
                           else
-                             outcome <= 71.0;
+                             outcome <= 0;
                           end if;
                        else
-                          if (atributo_1 <= 24) then
-                             outcome <= 81.0;
+                          if (atributo_3 <= 33) then
+                             outcome <= 0;
                           else
-                             outcome <= 65.0;
+                             outcome <= 1;
                           end if;
                        end if;
                     end if;

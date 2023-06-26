@@ -90,7 +90,7 @@ def exportar_vhdl(resultado, cabecalho, valores_pred):
             if (valor.replace(".", "").isnumeric()):
                 valor = float(valor)
             result_array_endif[result_array_endif.index(line)] = line.replace(predicao,
-                'outcome <= ' + (str(valores_y.index(valor)) if isinstance(valor, str) else str(valor)) + ';')
+                'outcome <= ' + (str(valores_y.index(valor)) if isinstance(valor, str) else str(int(float(valor)))) + ';')
         
     for line in result_array_endif:
         result_array_endif[result_array_endif.index(line)] = '           ' + line.replace('|', '   ')

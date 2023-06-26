@@ -1,29 +1,12 @@
 
 [Atributos em ordem e seus respectivos campos]
-FIELd_0: Rating
-FIELd_1: Price
-FIELd_2: Country
-FIELd_3: Grape
-FIELd_4: From-Oregon?
+FIELd_0: Glucose
+FIELd_1: Blood-pressure
+FIELd_2: Insulin
+FIELd_3: BMI
+FIELd_4: Age
 
 [Categóricos em ordem e seus respectivos campos]
-FIELd_2: Country
->> 0: Argentina
->> 1: Austraila
->> 2: France
->> 3: Italy
->> 4: Spain
->> 5: United-States
-FIELd_3: Grape
->> 0: Cabernet-Sauvignon
->> 1: Cava
->> 2: Chardonnay
->> 3: Malbec
->> 4: Merlot
->> 5: Pinot-Grigio
->> 6: Pinot-Noir
->> 7: Prosecco
->> 8: Reisling
-FIELd_4: From-Oregon?
->> 0: No
->> 1: Yes
+PrEdiCao:
+>> 0: true
+>> 1: false
